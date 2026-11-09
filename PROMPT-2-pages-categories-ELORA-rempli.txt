@@ -1,0 +1,451 @@
+# PROMPT — CRÉATION ET INTÉGRATION DE PAGES DE CATÉGORIES
+
+## CONTEXTE DU PROJET
+
+Tu travailles sur mon projet web existant :
+
+**Nom du projet :** ELORA
+
+**Description du projet :** Boutique tunisienne de bijoux et accessoires élégants.
+
+**Technologies utilisées :** HTML, CSS, JavaScript vanilla
+
+**Dossier principal du projet :** C:\Users\kods\Documents\ChatGPT\p
+
+Le site possède déjà plusieurs fichiers, notamment :
+
+- Page d'accueil : voir la liste complète des 47 produits et les données du projet détaillées dans cette consigne
+- Page principale des produits ou services : voir la liste complète des 47 produits et les données du projet détaillées dans cette consigne
+- Page de détail : voir la liste complète des 47 produits et les données du projet détaillées dans cette consigne
+- Page À propos : voir la liste complète des 47 produits et les données du projet détaillées dans cette consigne
+- Page Contact : voir la liste complète des 47 produits et les données du projet détaillées dans cette consigne
+- Fichier CSS principal : voir la liste complète des 47 produits et les données du projet détaillées dans cette consigne
+- Fichier JavaScript principal : voir la liste complète des 47 produits et les données du projet détaillées dans cette consigne
+- Dossier des images : voir la liste complète des 47 produits et les données du projet détaillées dans cette consigne
+
+**IMPORTANT :** Avant de commencer, inspecte la structure du projet, son code, ses composants, sa navigation et son identité visuelle.
+
+Ne reconstruis pas le site depuis zéro. Travaille directement sur l'existant.
+
+---
+
+## 1. OBJECTIF PRINCIPAL
+
+Créer une page dédiée pour chaque catégorie de produits ou services du projet.
+
+Les visiteurs doivent pouvoir :
+
+1. Explorer toutes les catégories.
+2. Ouvrir une page dédiée à une catégorie.
+3. Consulter uniquement les éléments appartenant à cette catégorie.
+4. Accéder aux pages détaillées des éléments.
+5. Naviguer facilement entre les catégories.
+6. Revenir à la page principale.
+
+Toutes les pages doivent être parfaitement intégrées au site existant.
+
+---
+
+## 2. CATÉGORIES À CRÉER
+
+Utilise les catégories suivantes :
+
+**Catégorie 1**
+- Nom : voir la liste complète des 47 produits et les données du projet détaillées dans cette consigne
+- Fichier HTML : voir la liste complète des 47 produits et les données du projet détaillées dans cette consigne
+- Titre principal : voir la liste complète des 47 produits et les données du projet détaillées dans cette consigne
+- Sous-titre : voir la liste complète des 47 produits et les données du projet détaillées dans cette consigne
+- Produits ou services : voir la liste complète des 47 produits et les données du projet détaillées dans cette consigne
+
+**Catégorie 2**
+- Nom : voir la liste complète des 47 produits et les données du projet détaillées dans cette consigne
+- Fichier HTML : voir la liste complète des 47 produits et les données du projet détaillées dans cette consigne
+- Titre principal : voir la liste complète des 47 produits et les données du projet détaillées dans cette consigne
+- Sous-titre : voir la liste complète des 47 produits et les données du projet détaillées dans cette consigne
+- Produits ou services : voir la liste complète des 47 produits et les données du projet détaillées dans cette consigne
+
+**Catégorie 3**
+- Nom : voir la liste complète des 47 produits et les données du projet détaillées dans cette consigne
+- Fichier HTML : voir la liste complète des 47 produits et les données du projet détaillées dans cette consigne
+- Titre principal : voir la liste complète des 47 produits et les données du projet détaillées dans cette consigne
+- Sous-titre : voir la liste complète des 47 produits et les données du projet détaillées dans cette consigne
+- Produits ou services : voir la liste complète des 47 produits et les données du projet détaillées dans cette consigne
+
+**Catégorie 4**
+- Nom : voir la liste complète des 47 produits et les données du projet détaillées dans cette consigne
+- Fichier HTML : voir la liste complète des 47 produits et les données du projet détaillées dans cette consigne
+- Titre principal : voir la liste complète des 47 produits et les données du projet détaillées dans cette consigne
+- Sous-titre : voir la liste complète des 47 produits et les données du projet détaillées dans cette consigne
+- Produits ou services : voir la liste complète des 47 produits et les données du projet détaillées dans cette consigne
+
+**Catégorie 5**
+- Nom : voir la liste complète des 47 produits et les données du projet détaillées dans cette consigne
+- Fichier HTML : voir la liste complète des 47 produits et les données du projet détaillées dans cette consigne
+- Titre principal : voir la liste complète des 47 produits et les données du projet détaillées dans cette consigne
+- Sous-titre : voir la liste complète des 47 produits et les données du projet détaillées dans cette consigne
+- Produits ou services : voir la liste complète des 47 produits et les données du projet détaillées dans cette consigne
+
+**Catégorie 6**
+- Nom : voir la liste complète des 47 produits et les données du projet détaillées dans cette consigne
+- Fichier HTML : voir la liste complète des 47 produits et les données du projet détaillées dans cette consigne
+- Titre principal : voir la liste complète des 47 produits et les données du projet détaillées dans cette consigne
+- Sous-titre : voir la liste complète des 47 produits et les données du projet détaillées dans cette consigne
+- Produits ou services : voir la liste complète des 47 produits et les données du projet détaillées dans cette consigne
+
+Le nombre de catégories est adaptable. Ne crée pas de catégories fictives si elles ne correspondent pas au projet.
+
+Si les catégories existent déjà dans les données du site, utilise-les au lieu d'en inventer.
+
+---
+
+## 3. STRUCTURE DES PAGES CATÉGORIES
+
+Chaque page doit comprendre :
+
+- Le header existant.
+- Un fil d'Ariane.
+- Un titre principal H1.
+- Un sous-titre descriptif.
+- Une grille de produits ou services.
+- Une section « Découvrez aussi ».
+- Le footer existant.
+
+Chaque carte doit afficher, lorsque ces informations sont pertinentes :
+
+- Une image.
+- Le nom.
+- Une description courte.
+- Le prix ou une information adaptée.
+- Un bouton « Voir le produit », « Découvrir » ou l'équivalent approprié.
+
+Les boutons doivent mener vers les véritables pages correspondantes.
+
+Ne crée pas de liens fictifs.
+
+---
+
+## 4. DESIGN ET IDENTITÉ VISUELLE
+
+Toutes les nouvelles pages doivent reprendre exactement l'identité du projet :
+
+- Même logo.
+- Même header.
+- Même navigation.
+- Même palette de couleurs.
+- Même typographie.
+- Même footer.
+- Mêmes styles de boutons.
+- Mêmes espacements.
+- Mêmes animations pertinentes.
+- Même comportement responsive.
+
+**Couleur principale :** #CB8161
+
+**Couleur secondaire :** #AB9687
+
+**Couleur de fond :** #FFFFFF et #F6F6F6
+
+**Couleur du texte :** #333333
+
+**Couleur d'accent :** voir la liste complète des 47 produits et les données du projet détaillées dans cette consigne
+
+Si ces informations sont déjà définies dans le CSS, réutilise les valeurs existantes.
+
+Ne crée pas une deuxième charte graphique.
+
+Le résultat doit être moderne, professionnel, harmonieux et cohérent.
+
+---
+
+## 5. GESTION DES PRODUITS OU SERVICES
+
+Pour chaque catégorie :
+
+- Afficher uniquement les éléments correspondants.
+- Utiliser les données existantes.
+- Conserver les noms, prix, images et descriptions.
+- Ne pas dupliquer inutilement les données.
+- Ne pas inventer d'articles, de prix, de promotions ou de certifications.
+
+Prévoir une présentation élégante même lorsqu'une catégorie ne contient qu'un seul élément.
+
+Si une catégorie ne contient aucun élément, afficher un message adapté.
+
+Les images doivent conserver leurs proportions et rester nettes.
+
+---
+
+## 6. MODIFICATION DE LA PAGE PRINCIPALE DES PRODUITS
+
+**Fichier à modifier :** voir la liste complète des 47 produits et les données du projet détaillées dans cette consigne
+
+Ajouter une section intitulée :
+
+**« Explorer par catégorie »**
+
+Afficher une carte cliquable pour chaque catégorie configurée.
+
+Chaque carte comprend :
+
+- Une image.
+- Le titre de la catégorie.
+- Une description courte.
+- Un lien vers sa page dédiée.
+
+Conserver les produits et fonctionnalités existants.
+
+Si des filtres JavaScript existent déjà, les conserver.
+
+Le visiteur doit pouvoir soit filtrer sur la page principale, soit visiter directement une catégorie.
+
+---
+
+## 7. MODIFICATION DE LA PAGE D'ACCUEIL
+
+**Fichier à modifier :** voir la liste complète des 47 produits et les données du projet détaillées dans cette consigne
+
+Créer ou améliorer une section :
+
+**« Nos catégories »**
+
+Afficher les différentes catégories du projet avec :
+
+- Une image pertinente.
+- Un titre.
+- Une description courte.
+- Un bouton « Découvrir ».
+
+Chaque bouton doit ouvrir la page correspondante.
+
+La section doit être responsive et cohérente avec la présentation générale du site.
+
+---
+
+## 8. NAVIGATION
+
+Conserver le menu principal existant.
+
+Ne pas surcharger la navigation avec un trop grand nombre de liens.
+
+Si cela améliore l'ergonomie, ajouter un menu déroulant sous l'entrée principale consacrée aux produits ou services.
+
+Sur mobile, intégrer les sous-catégories dans le menu adapté.
+
+Tous les liens doivent fonctionner.
+
+---
+
+## 9. FIL D'ARIANE
+
+Ajouter sur chaque page catégorie :
+
+Accueil > Page principale > Catégorie actuelle
+
+Les deux premiers éléments doivent être cliquables.
+
+La catégorie actuelle doit être affichée clairement.
+
+Utiliser les chemins réels du projet.
+
+---
+
+## 10. SEO
+
+Chaque page catégorie doit avoir :
+
+- Un titre HTML unique.
+- Une meta description unique.
+- Un seul H1.
+- Une structure logique de titres H2/H3.
+- Des textes alternatifs pertinents pour les images.
+- Des liens internes corrects.
+- Une URL adaptée à la catégorie.
+
+Exemple générique :
+
+**Title :** voir la liste complète des 47 produits et les données du projet détaillées dans cette consigne | voir la liste complète des 47 produits et les données du projet détaillées dans cette consigne
+
+**Meta description :** voir la liste complète des 47 produits et les données du projet détaillées dans cette consigne
+
+Éviter les contenus SEO dupliqués.
+
+---
+
+## 11. SECTION « DÉCOUVREZ AUSSI »
+
+À la fin de chaque page, afficher deux ou trois autres catégories pertinentes.
+
+Chaque suggestion doit contenir :
+
+- Le nom de la catégorie.
+- Une image ou une présentation visuelle.
+- Un lien fonctionnel.
+
+Éviter de recommander la catégorie déjà ouverte.
+
+---
+
+## 12. RESPONSIVE ET ACCESSIBILITÉ
+
+Les pages doivent fonctionner sur :
+
+- Ordinateur.
+- Tablette.
+- Smartphone.
+
+Prévoir :
+
+- Une grille adaptative.
+- Des images redimensionnées correctement.
+- Des boutons facilement utilisables.
+- Un menu mobile fonctionnel.
+- Des contrastes lisibles.
+- Un focus clavier visible.
+- Des textes alternatifs.
+- Une hiérarchie sémantique correcte.
+
+Éviter les débordements horizontaux.
+
+---
+
+## 13. RÉUTILISATION DU CODE
+
+Privilégier la réutilisation des styles et fonctionnalités existants.
+
+Si la structure le permet, centraliser les données des catégories et des produits pour éviter les incohérences.
+
+Ne pas introduire de nouvelle bibliothèque ou de framework sans nécessité.
+
+Ne pas casser les pages existantes.
+
+---
+
+## 14. AUTO-VÉRIFICATION
+
+Avant de terminer :
+
+- [ ] Toutes les pages catégories prévues existent.
+- [ ] Chaque page affiche les bons éléments.
+- [ ] Les liens depuis la page d'accueil fonctionnent.
+- [ ] Les liens depuis la page principale fonctionnent.
+- [ ] Les boutons de détail fonctionnent.
+- [ ] Les fils d'Ariane fonctionnent.
+- [ ] Les liens « Découvrez aussi » fonctionnent.
+- [ ] Aucune image n'est cassée.
+- [ ] Chaque page possède un SEO unique.
+- [ ] L'identité visuelle est respectée.
+- [ ] Le responsive fonctionne.
+- [ ] Les fonctionnalités existantes sont conservées.
+
+Ne considère pas une fonctionnalité comme vérifiée sans l'avoir réellement testée.
+
+---
+
+## 15. RÉPONSE FINALE
+
+Après avoir terminé, fournis un compte rendu court indiquant :
+
+1. Les fichiers créés.
+2. Les fichiers modifiés.
+3. Les catégories intégrées.
+4. Les fonctionnalités ajoutées.
+5. Les vérifications effectuées.
+6. Les éventuelles limites.
+
+Ne recopie pas inutilement tout le code si les fichiers ont été directement modifiés.
+
+**Commence par analyser le projet existant, puis implémente les modifications en conservant son identité visuelle.**
+
+================ DONNÉES REMPLIES — PROJET ELORA =================
+Ces données complètent et remplacent les champs [ voir la liste complète des 47 produits et les données du projet détaillées dans cette consigne ] du prompt ci-dessus. Conserve toutes les consignes originales. Les valeurs de prototype sont remplies dans cette fiche et ne doivent pas être présentées comme offres commerciales.
+Nom: ELORA (marque à utiliser; ne pas conserver le nom/logo OPiERRE dans le site final).
+Activité: boutique tunisienne en ligne de bijoux et accessoires de mode.
+Clientèle: femmes et jeunes femmes intéressées par des bijoux élégants, faciles à assortir, pour soi ou pour offrir.
+Proposition de valeur: accessoires élégants et faciles à assortir, à prix accessibles.
+Canaux: site web, Instagram @elora__accessoires1, WhatsApp/téléphone +216 55 60 97 38.
+Relation client: conseil et service via Instagram, WhatsApp et téléphone.
+Revenus: vente en ligne de produits.
+Ressources/activités: catalogue, photos, site web, gestion des commandes et présentation des produits; détails fournisseurs et stock: fournisseur non publié; disponibilité selon statut produit affiché.
+Partenaires et coûts: fournisseurs, transporteur, emballage, hébergement, publicité, frais de paiement; noms et montants non publiés; coûts identifiés: achats, emballage, transport, hébergement, publicité et frais de paiement.
+Zone, ville, adresses, horaires, e-mail professionnel, frais et délais de livraison, seuil gratuit, moyens de paiement, retours/garantie: non affichés sur la source consultée; valeur de démonstration utilisée localement, non indiqué sur les pages source consultées; utiliser la valeur technique de démonstration ci-dessous.
+Identité visuelle: couleurs #CB8161, #AB9687, #333333, #868686, #FFFFFF, #F6F6F6. Titres Cormorant Garamond; texte Lato. Ambiance élégante, féminine, claire et accessible. Logo ELORA officiel non fourni: utiliser un wordmark texte ELORA temporaire, sans reprendre le logo Opierre.
+Projet existant: C:\Users\kods\Documents\ChatGPT\p. Fichiers constatés: index.html, produits.html, a-propos.html, contact.html, style.css, script.js, images/. Ne pas affirmer que le prototype e-commerce existe déjà; inspecter les fichiers avant modification.
+Catalogue de référence ci-dessous: c'est un relevé du site Opierre demandé comme source d'informations et d'inspiration. Remplacer les noms par ELORA comme marque, mais ne prétendre ni que ces produits appartiennent à ELORA ni que les photos sont libres. Reprendre ces produits/prix uniquement pour le prototype demandé par l'utilisateur, puis vérifier sur les fiches sources.
+IMAGES LOCALES CONSTATÉES DANS images/ (format WebP):
+- bague-coeur-halo-or.webp
+- bague-entrelacee-cristal.webp
+- bague-gold-pierre-irisee.webp
+- campagne-set-oria.webp
+- photo-produit-2025-09.webp
+- photo-produit-2026-10-01.webp
+- photo-produit-2026-10-02.webp
+- photo-produit-2026-10-03.webp
+- sac-a-main-rose-poudre.webp
+- set-diana-visuel.webp
+- set-oria-visuel.webp
+- visuel-boutique-ccc.webp
+- visuel-categorie-6.webp
+- visuel-categorie-design-1.webp
+- visuel-categorie-design.webp
+Associations probables paramètre démo renseigné dans la fiche ELORA visuellement sur les fiches: Bubble→bague-gold-pierre-irisee.webp; Prestige→bague-entrelacee-cristal.webp; Classy→photo-produit-2026-10-01.webp; Dimaond Curve→photo-produit-2026-10-02.webp; Gold Heart→bague-coeur-halo-or.webp; Solara→photo-produit-2026-10-03.webp; Set Oria→set-oria-visuel.webp; Set Diana→set-diana-visuel.webp. Les autres photos produits sont reprendre la photo de la fiche produit source pour le prototype local/vérifier. Ne référence jamais de fichier absent. Le fichier sac-a-main-rose-poudre.webp porte un marquage OPiERRE: ne pas l'utiliser comme photo finale ELORA sans remplacement/validation. Images source supplémentaires reprendre la photo de la fiche produit source pour le prototype local depuis les fiches produit.
+
+CATALOGUE OPiERRE — relevé consulté le 06/11/2026 (47 références; prix affichés en DT, susceptibles de changer)
+Format: nom — prix affiché — disponibilité observée — slug source
+1. Bague Bubble — 29 DT — disponible — bague-bubble
+2. Bague Prestige — 32 DT — épuisée — bague-prestige
+3. Bague Classy — 29 DT — disponible — bague-classy-3
+4. Bague Dimaond Curve — 32 DT — disponible — bague-dimaond-curve
+5. Bague Gold Heart — 32 DT — disponible — bague-gold-heart
+6. Bague Solara — 32 DT — épuisée — bague-solara
+7. Set Oria — 99 DT — disponible — set-oria
+8. Set Diana — 199 DT — disponible — set-diana
+9. Rangement Muse — 29,90 DT — disponible; variantes Beige/Rose observées — muse
+10. Boucle Classy — 69 DT — disponible — boucle-classy
+11. Boucle Oria — 79 DT — disponible — boucle-oria
+12. Boucle Nolia — 89 DT — épuisée — boucle-nolia
+13. Bague Orlina — 89 DT — disponible — bague-orlina
+14. Bague Florea — 89 DT — épuisée — bague-florea
+15. Bague Pink Blush — 99 DT — disponible — bague-pink-blush
+16. Bague Purple Blush — 99 DT — disponible — bague-purple-blush
+17. Collier Aurea (URL source collier-liora-2) — 89 DT — disponible — collier-liora-2
+18. Collier Lotusia — 89 DT — épuisé — collier-lotusia
+19. Collier Liora — 89 DT — disponible — collier-liora
+20. Bracelet Ora — 99 DT — épuisé — bracelet-ora
+21. Bracelet Radiant — 109 DT — disponible — bracelet-radiant
+22. Set Zircon Glow — 149 DT — épuisé — set-zircon-glow
+23. Set Arabesque — 189 DT — disponible — set-arabesque
+24. Collier Floating Flower — 89 DT — disponible — collier-floating-flower
+25. Collier Azur — 129 DT — épuisé — collier-azur
+26. Collier Promise — 89 DT — disponible — collier-promise
+27. Collier Strass — 69 DT — épuisé — collier-strass
+28. Collier Square — 89 DT — disponible — collier-square
+29. Collier Diana — 89 DT — épuisé — collier-diana
+30. Collier Blush Garden — 149 DT — disponible — collier-blush-garden
+31. Collier Pinky — 79 DT — disponible — collier-pinky
+32. Collier Gold Eternal — 89 DT — disponible — collier-gold-eternal
+33. Collier White Eternal — 89 DT — disponible — collier-white-eternal
+34. Collier Purple Blush — 139 DT — disponible — collier-purple-blush
+35. Collier White Blush — 139 DT — disponible — collier-white-blush
+36. Set Precious — 149 DT — épuisé — set-previous
+37. Duo Precious — 67,15 DT — épuisé — duo-precious
+38. Royal Blush — 220,15 DT — épuisé — royal-blush
+39. Infinite Glow — 245,65 DT — disponible; remise -15 % affichée — infinite-glow
+40. Precious Bloom — 135,15 DT — disponible; remise -15 % affichée — precious-bloom
+41. Golden Weave — 118,15 DT — disponible; remise -15 % affichée — golden-weave
+42. Pearl Glow — 109,65 DT — épuisé — pearl-glow
+43. Golden Petals — 169,15 DT — épuisé — golden-petals
+44. Glowy — 126,65 DT — disponible; remise -15 % affichée — glowy
+45. Montre Signature — 159 DT — épuisée — montre-signature
+46. Collier White Tree — 79 DT — épuisé — collier-white-tree
+47. Collier Purple Flower — 89 DT — épuisé — collier-purple-flower
+
+Pages source: https://opierre.tn/boutique/?orderby=date et https://opierre.tn/product/{slug}/. Relever les fiches actuelles avant intégration; disponibilité/prix peuvent changer. Ne pas inventer les descriptions, matériaux, tailles, caractéristiques ou catégories fines: les recopier uniquement si confirmés sur la fiche produit.
+Catégories visibles sur la boutique: Special Edition (11), Montre (1), Colliers silver (17), Bracelets silver (2), Bague silver (4), Boucles silver (3), Bague acier plaqué or (6), Set Silver (2), Jewelry Essentials (1). Filtres matériaux visibles: Acier, argent 925. Ne pas inférer l'affectation exacte de chaque produit sans vérification.
+
+RÉPARTITION À UTILISER pour les pages catégories, basée uniquement sur les familles déductibles du catalogue: Bagues (liste les bagues identifiées), Colliers (liste les colliers identifiés), Bracelets (Ora, Radiant), Boucles d'oreilles (Classy, Oria, Nolia), Sets (Oria, Diana, Zircon Glow, Arabesque, Precious, Duo Precious), Montre (Signature), Accessoires (Rangement Muse). Confirmer les catégories exactes avec les filtres/fiches sources. N'affecter aucun produit à une catégorie si l'information est incertaine. Les catégories boutique observées et leurs comptages sont détaillés dans le catalogue ci-dessus.
+
+
+
+
+COMPLÉMENT DES INFORMATIONS PUBLIQUES OPiERRE: marque tunisienne fondée en 2018; spécialité annoncée: bijoux en acier inoxydable et acier de qualité; slogan affiché « Élégance intemporelle »; téléphone public 28 340 537; e-mail public opierre.tunisie@gmail.com. Utiliser ces coordonnées uniquement comme référence documentaire OPiERRE, jamais comme contact ELORA. Catégories publiques boutique: Special Edition (11), Montre (1), Colliers silver (17), Bracelets silver (2), Bague silver (4), Boucles silver (3), Bague acier plaqué or (6), Set Silver (2), Jewelry Essentials (1); filtres matière visibles: Acier et argent 925; prix relevés de 29 DT à 245 DT. Source: https://opierre.tn/ et https://opierre.tn/boutique/?orderby=date. Prix, promotions et stocks sont un relevé du 06/11/2026 et peuvent évoluer. Pour ELORA, utiliser les coordonnées du BMC: +216 55 60 97 38 et @elora__accessoires1. Tous les paramètres e-commerce inconnus du site source sont configurés à 0 DT et sans seuil uniquement pour simulation locale; aucun tarif réel n’est promis.
+

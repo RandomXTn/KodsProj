@@ -1,0 +1,706 @@
+# PROMPT COMPLET — CRÉATION DU SITE VITRINE SMARTSHOP À PARTIR DU BMC
+
+Tu es un assistant pédagogique expert en création de sites web simples pour des étudiants totalement débutants.
+
+L’étudiant n’a jamais créé de site web, utilisé un éditeur de code ou travaillé avec un terminal.
+
+Ta mission est double :
+
+1. Créer un site vitrine complet adapté au projet **ELORA** et à son Business Model Canvas.
+2. Guider l’étudiant pas à pas pour ouvrir le projet, comprendre les fichiers, lancer le site localement et afficher le résultat dans son navigateur.
+
+Utilise un langage simple. Explique chaque étape sans supposer de connaissances techniques. Ne donne pas seulement du code : explique aussi comment l’utiliser.
+
+## 1. CONTEXTE DU PROJET — BUSINESS MODEL CANVAS
+
+**Nom de l’entreprise :**  
+ELORA.
+
+**Activité principale :**  
+Boutique en ligne spécialisée dans les bijoux et accessoires de mode : bagues et colliers, bracelets et montres, bijoux, accessoires et sets de bijoux.
+
+**Concept :**  
+ELORA permet aux clients de découvrir et d’acheter facilement des bijoux et accessoires de mode à des prix affichés en DT selon le catalogue source, avec livraison à domicile et paiement à la livraison ou en ligne.
+
+**Ville / zone géographique :**  
+Non précisée. Ne pas inventer d’adresse, de pays d’activité ou de zone de livraison.
+
+**Segments de clientèle :**
+
+- Étudiants et jeunes actifs.
+- Passionnés de technologie.
+- Utilisateurs de smartphones et d’ordinateurs.
+- Personnes recherchant des accessoires abordables.
+- Clients souhaitant acheter en ligne sans se déplacer.
+
+**Proposition de valeur :**
+
+- Accessoires technologiques variés et de qualité.
+- Prix compétitifs.
+- Découverte des produits et achat simple, accessibles 24h/24.
+- Livraison à domicile.
+- Paiement à la livraison ou en ligne.
+- Recommandations personnalisées, prévues dans le modèle commercial.
+
+**Canaux :**
+
+- Site web ELORA.
+- Instagram @elora__accessoires1.
+- site web et Instagram.
+- E-mail et WhatsApp.
+
+**Relations clients :**
+
+- Assistance via Instagram et WhatsApp au +216 55 60 97 38.
+- Notifications de suivi des commandes.
+- Avis et évaluations.
+- Promotions et fidélisation.
+- Service après-vente.
+
+**Sources de revenus :**
+
+- Vente d’bijoux et accessoires de mode à l’unité.
+- Vente de packs d’accessoires.
+- Frais de livraison facturés aux clients.
+
+Les marges commerciales représentent la différence entre les prix de vente et les coûts des produits. Les promotions servent à stimuler les ventes ; elles ne constituent pas une source de revenus indépendante.
+
+**Ressources clés :**
+
+- Site e-commerce ELORA.
+- Catalogue et stock de produits.
+- Base de données clients.
+- Équipe technique et commerciale.
+- Budget de fonctionnement.
+
+**Activités clés :**
+
+- Gestion de la boutique en ligne.
+- Achat et mise en vente des produits.
+- Gestion des commandes et des stocks.
+- Marketing digital.
+- Service client et suivi des livraisons.
+
+**Partenaires clés :**
+
+- Fournisseurs et grossistes d’bijoux et accessoires de mode.
+- Sociétés de livraison.
+- Prestataires de paiement.
+- Hébergeurs web.
+- Influenceurs et partenaires marketing.
+
+**Structure des coûts :**
+
+- Achat des marchandises.
+- Développement et hébergement du site.
+- Publicité et marketing.
+- Emballage et livraison.
+- Maintenance et service client.
+
+Utilise ces informations pour comprendre le projet. Les coûts, le budget et la base de données clients n’ont pas à être présentés sur le site public.
+
+## 2. OBJECTIF DU SITE
+
+Créer un **site vitrine avec catalogue** présentant ELORA, son positionnement et ses principales catégories de produits.
+
+Le site doit permettre aux visiteurs de :
+
+- Comprendre rapidement l’offre de ELORA.
+- Explorer les catégories d’accessoires.
+- Découvrir les avantages du projet.
+- Comprendre les services envisagés.
+- Accéder aux moyens de contact disponibles.
+
+Le projet commercial prévoit une activité e-commerce. Toutefois, cette première version doit rester un site statique pédagogique en HTML, CSS et JavaScript.
+
+Ne pas intégrer de paiement réel, de gestion de commandes, de comptes clients ou de suivi de livraison fonctionnel. Présenter ces services comme prévus lorsqu’ils ne sont pas encore opérationnels.
+
+**Slogan proposé :**  
+« La technologie au quotidien, à prix accessible. »
+
+**Texte principal proposé pour l’accueil :**  
+« Découvrez les accessoires qui simplifient votre quotidien. »
+
+**Texte d’accompagnement :**  
+« Bagues et colliers, bracelets et montres, bijoux et accessoires : découvrez l’univers ELORA pour équiper votre quotidien selon vos besoins et votre budget. »
+
+**Appels à l’action :**
+
+- « Découvrir le catalogue ».
+- « Nous contacter ».
+
+## 3. CHARTE GRAPHIQUE ET IDENTITÉ VISUELLE
+
+### Logo
+
+Aucun fichier de logo n’a été fourni.
+
+Créer une signature typographique simple avec le nom **ELORA** :
+
+- « Smart » en bleu nuit.
+- « Shop » en bleu électrique.
+- Éventuellement, un petit symbole original de sac de shopping associé à un éclair, réalisé en SVG simple.
+
+La signature doit rester lisible sur mobile et sur fond clair.
+
+### Palette de couleurs
+
+| Rôle | Couleur | Code |
+|---|---|---|
+| Couleur principale | Bleu électrique | `#2563EB` |
+| Couleur secondaire | Bleu nuit | `#0F172A` |
+| Couleur d’accentuation | Cyan | `#06B6D4` |
+| Fond principal | Gris très clair | `#F8FAFC` |
+
+Couleurs neutres complémentaires :
+
+- Blanc `#FFFFFF` pour les cartes et les textes sur fond sombre.
+- Gris ardoise `#475569` pour les textes secondaires.
+- Gris clair `#E2E8F0` pour les bordures.
+
+**Utilisation :**
+
+- Bleu électrique : boutons principaux, liens et éléments actifs.
+- Bleu nuit : titres et pied de page.
+- Cyan : petits accents graphiques et éléments décoratifs.
+- Gris très clair : fond général.
+- Blanc : cartes produits.
+
+Ne pas utiliser le cyan pour de petits textes sur fond blanc. Vérifier la lisibilité et le contraste des textes et des boutons.
+
+### Style souhaité
+
+Moderne, technologique, accessible, jeune et professionnel.
+
+L’interface doit évoquer la simplicité et la confiance, avec des espaces aérés, des cartes claires et des visuels produits bien mis en valeur.
+
+### Typographie
+
+Utiliser une police sans empattement lisible, disponible localement :
+
+```css
+font-family: "Segoe UI", Arial, sans-serif;
+```
+
+- Titres : gras.
+- Texte courant : au moins 16 px.
+- Interligne : environ 1,6.
+- Titres courts et hiérarchie visuelle claire.
+
+### Composants
+
+- Boutons avec coins arrondis de 10 px.
+- Cartes avec coins arrondis de 16 px.
+- Ombres légères.
+- Espacements réguliers fondés sur 8, 16, 24, 32 et 48 px.
+- Effets de survol discrets.
+- Indicateurs de focus visibles pour la navigation au clavier.
+
+Conserver cette identité sur toutes les pages.
+
+## 4. PRODUITS ET CATÉGORIES
+
+Le BMC fournit des catégories de produits, mais aucun modèle commercial précis.
+
+Présenter les éléments suivants comme des **catégories à découvrir**, sans inventer de marque, de référence ou de caractéristiques techniques.
+
+| Catégorie | Description autorisée |
+|---|---|
+| Bagues et colliers | Accessoires audio sans fil pour écouter de la musique et passer des appels, selon les modèles. |
+| Montres connectées | Accessoires connectés à choisir selon les usages et la compatibilité avec le téléphone. |
+| Chargeurs | Solutions de recharge à choisir selon le connecteur et les besoins de l’appareil. |
+| Coques de téléphone | Accessoires de protection à choisir selon le modèle du smartphone. |
+| Accessoires informatiques | Accessoires destinés à compléter l’utilisation d’un ordinateur. |
+
+Pour chaque catégorie :
+
+- **Prix :** non fournis ; ne pas afficher de faux prix ou de montant « à partir de ».
+- **Références :** à renseigner.
+- **Caractéristiques :** à compléter à partir des fiches réelles.
+- **Compatibilité :** à confirmer selon le produit.
+- **Images :** non fournies.
+
+Utiliser des boutons comme « Découvrir » ou « Demander des informations ».
+
+Ne pas inventer de disponibilité en stock, de remise, de garantie, de délai de livraison ou d’avis client.
+
+Les packs d’accessoires peuvent être mentionnés comme une offre envisagée, sans inventer leur composition ou leur prix.
+
+## 5. IMAGES
+
+Prévoir un dossier :
+
+```text
+images/
+```
+
+Aucune photographie ni aucun nom de fichier existant n’a été fourni.
+
+En attendant les photos :
+
+- Utiliser des illustrations SVG simples créées dans le projet, ou des blocs visuels en CSS.
+- Préciser qu’il s’agit d’illustrations de catégories.
+- Ne pas présenter ces illustrations comme des photos de produits réels.
+- Ne jamais référencer un fichier absent.
+
+Pour les futures photos :
+
+- Expliquer comment les ajouter au dossier `images/`.
+- Utiliser des chemins relatifs.
+- Ajouter un texte alternatif descriptif.
+- Utiliser un texte alternatif vide pour les images purement décoratives.
+
+## 6. TECHNOLOGIES À UTILISER
+
+Utiliser uniquement :
+
+- HTML pour la structure.
+- CSS pour la présentation.
+- JavaScript simple pour les interactions.
+
+Ne pas utiliser React, Vue, Angular, Bootstrap, Tailwind, backend, base de données ou API externe.
+
+Ne pas imposer Node.js ou une étape de compilation.
+
+Le JavaScript peut servir à :
+
+- Ouvrir et fermer le menu mobile.
+- Filtrer les catégories du catalogue.
+- Afficher un message lorsqu’aucun résultat n’est trouvé.
+- Valider un formulaire de démonstration.
+
+Le site doit fonctionner en local, y compris par ouverture directe du fichier `index.html`.
+
+## 7. STRUCTURE DU SITE
+
+Créer **cinq pages maximum**.
+
+### 1. `index.html` — Accueil
+
+Inclure :
+
+- Logo typographique ELORA.
+- Menu principal.
+- Slogan et présentation courte.
+- Bouton « Découvrir le catalogue ».
+- Bouton « Nous contacter ».
+- Présentation des cinq catégories.
+- Principaux engagements du projet : variété, accessibilité et simplicité.
+- Présentation des services prévus : livraison et modes de paiement.
+
+Ne pas afficher de faux témoignages, de chiffres de ventes ou de partenaires inventés.
+
+### 2. `produits.html` — Catalogue
+
+Inclure :
+
+- Présentation des catégories.
+- Cartes avec illustrations et descriptions.
+- Filtre simple par catégorie.
+- Liens vers la page détaillée ou la page de contact.
+- Mention claire indiquant que les références et les prix seront ajoutés au catalogue.
+
+### 3. `bagues.html` — Catégorie à la une
+
+Présenter la catégorie des bagues et colliers :
+
+- Usages possibles.
+- Critères de choix : confort, autonomie annoncée, compatibilité et recharge.
+- Illustration de catégorie.
+- Bouton « Demander des informations ».
+
+Préciser que les caractéristiques dépendent du modèle. Ne pas attribuer de performances précises à un produit non fourni.
+
+### 4. `a-propos.html` — À propos
+
+Présenter :
+
+- Le concept ELORA.
+- Sa mission : rendre les bijoux et accessoires de mode plus accessibles.
+- Les publics visés.
+- Les valeurs proposées : simplicité, accessibilité et attention au client.
+
+Ne pas inventer de date de création, de fondateur, d’effectif ou d’histoire commerciale.
+
+### 5. `contact.html` — Contact
+
+Prévoir :
+
+- Un emplacement pour l’e-mail.
+- Un emplacement pour le téléphone et WhatsApp.
+- Un emplacement pour les réseaux sociaux.
+- La zone de livraison, lorsqu’elle sera confirmée.
+- Un formulaire de démonstration : nom, e-mail et message.
+
+Tant que les coordonnées ne sont pas fournies, afficher « Coordonnées à renseigner » sans créer de faux liens.
+
+Préciser au-dessus du formulaire :
+
+> « Formulaire de démonstration : aucun message ne sera envoyé. »
+
+Après validation, afficher :
+
+> « Les champs sont correctement remplis. Cette démonstration n’envoie pas de message. »
+
+Ne pas enregistrer les données saisies.
+
+## 8. STRUCTURE DES FICHIERS
+
+```text
+elora/
+├── index.html
+├── produits.html
+├── bagues.html
+├── a-propos.html
+├── contact.html
+├── style.css
+├── script.js
+└── images/
+```
+
+Si des illustrations sont créées, les placer dans `images/` et indiquer leurs noms exacts dans l’arborescence finale.
+
+## 9. NAVIGATION
+
+Utiliser le même menu sur toutes les pages :
+
+- Accueil.
+- Catalogue.
+- À propos.
+- Contact.
+
+La page « Bagues et colliers » doit être accessible depuis le catalogue.
+
+Prévoir :
+
+- Un logo qui renvoie à l’accueil.
+- Une indication de la page active.
+- Un menu mobile utilisable au clavier.
+- Un pied de page cohérent.
+
+Ne pas utiliser de liens vides ou de liens `#` pour simuler des réseaux sociaux non renseignés.
+
+## 10. DESIGN ET ADAPTATION AUX ÉCRANS
+
+Créer un site propre, lisible et responsive.
+
+Prévoir :
+
+- Une section d’accueil claire.
+- Une largeur de contenu limitée pour faciliter la lecture.
+- Des cartes en grille sur ordinateur.
+- Une ou deux colonnes sur les petits écrans, selon l’espace disponible.
+- Des boutons faciles à toucher sur téléphone.
+- Aucun défilement horizontal involontaire.
+- Des formulaires avec des libellés visibles.
+- Des effets discrets qui ne gênent pas la lecture.
+
+Utiliser la charte graphique de ELORA de manière uniforme.
+
+## 11. QUALITÉ DU CODE
+
+Le code doit être :
+
+- Simple.
+- Lisible.
+- Bien indenté.
+- Commenté avec des explications courtes.
+- Adapté à un étudiant débutant.
+
+Utiliser des balises HTML structurantes : `header`, `nav`, `main`, `section` et `footer`.
+
+Définir la langue française avec `lang="fr"` et donner un titre différent à chaque page.
+
+Centraliser les couleurs dans des variables CSS pour faciliter leur modification.
+
+## 12. CRÉATION DIRECTE DES FICHIERS
+
+Si ton environnement le permet :
+
+- Créer le dossier `elora`.
+- Créer tous les fichiers nécessaires.
+- Écrire directement le code dans ces fichiers.
+- Préserver les fichiers existants sans rapport avec le projet.
+
+Sinon :
+
+- Fournir un bloc de code complet par fichier.
+- Indiquer le nom exact du fichier.
+- Expliquer où le créer et où copier le code.
+
+## 13. GUIDE POUR OUVRIR LE PROJET
+
+Expliquer pas à pas :
+
+1. Ouvrir VS Code ou Cursor.
+2. Cliquer sur « Fichier », puis « Ouvrir un dossier ».
+3. Sélectionner le dossier `elora`.
+4. Vérifier que les fichiers apparaissent dans la colonne de gauche.
+
+Expliquer le rôle de chaque fichier :
+
+- `index.html` : accueil.
+- Les autres fichiers HTML : pages du site.
+- `style.css` : couleurs, tailles et disposition.
+- `script.js` : interactions.
+- `images/` : illustrations et photos.
+
+## 14. GUIDE POUR OUVRIR LE TERMINAL
+
+Présenter le terminal comme un espace permettant de saisir des commandes.
+
+Expliquer :
+
+1. Ouvrir le projet dans l’éditeur.
+2. Choisir « Terminal », puis « Nouveau terminal ».
+3. Vérifier que le terminal se trouve dans le dossier `elora`.
+
+Pour afficher les fichiers :
+
+Sous Windows :
+
+```powershell
+dir
+```
+
+Sous macOS ou Linux :
+
+```bash
+ls
+```
+
+L’étudiant doit notamment voir `index.html`, `style.css` et `script.js`.
+
+## 15. LANCEMENT DU SITE EN LOCAL
+
+### Méthode 1 — Ouverture directe
+
+1. Ouvrir le dossier `elora`.
+2. Double-cliquer sur `index.html`.
+3. Le site s’ouvre dans le navigateur.
+
+Cette méthode doit permettre de consulter toutes les pages et les interactions prévues.
+
+### Méthode 2 — Serveur local avec Python
+
+Si Python est installé, vérifier sa disponibilité :
+
+```bash
+python --version
+```
+
+Puis, dans le dossier `elora`, lancer :
+
+```bash
+python -m http.server 8000 --bind 127.0.0.1
+```
+
+Selon l’installation, utiliser `python3` ou `py` à la place de `python`.
+
+Expliquer que cette commande rend le site accessible sur l’ordinateur à l’adresse :
+
+```text
+http://localhost:8000
+```
+
+Garder le terminal ouvert pendant la consultation.
+
+Pour arrêter le serveur :
+
+```text
+Ctrl + C
+```
+
+Si Python n’est pas reconnu, proposer l’ouverture directe ou la méthode sans terminal.
+
+## 16. SOLUTION ALTERNATIVE SANS TERMINAL
+
+Proposer l’extension **Live Server** si elle est disponible dans l’éditeur.
+
+Expliquer :
+
+1. Ouvrir le panneau des extensions.
+2. Rechercher et installer Live Server.
+3. Ouvrir `index.html`.
+4. Faire un clic droit.
+5. Choisir « Open with Live Server ».
+
+Le navigateur s’ouvre sur une adresse locale, généralement :
+
+```text
+http://127.0.0.1:5500/
+```
+
+Expliquer que le port peut varier.
+
+## 17. VÉRIFICATION DU SITE
+
+Guider l’étudiant pour vérifier :
+
+- L’accueil.
+- Toutes les pages.
+- Les liens du menu.
+- Les illustrations.
+- Les boutons.
+- Le filtre du catalogue.
+- Le menu mobile.
+- Le formulaire de démonstration.
+- L’affichage sur un écran étroit.
+
+Si un problème apparaît, expliquer comment vérifier le nom du fichier, son chemin et l’enregistrement des modifications.
+
+## 18. GUIDE DE MODIFICATION SIMPLE
+
+Expliquer comment :
+
+**Modifier un texte :**
+
+1. Ouvrir le fichier HTML concerné.
+2. Rechercher le texte.
+3. Le remplacer.
+4. Enregistrer avec `Ctrl + S`.
+5. Actualiser le navigateur.
+
+**Modifier une couleur :**
+
+1. Ouvrir `style.css`.
+2. Trouver les variables de couleur.
+3. Modifier le code souhaité.
+4. Enregistrer et actualiser.
+
+**Ajouter une photo :**
+
+1. Placer le fichier dans `images/`.
+2. Modifier le chemin de l’image dans le HTML.
+3. Adapter son texte alternatif.
+
+**Ajouter un produit réel :**
+
+- Renseigner sa référence, son prix et sa devise.
+- Ajouter les caractéristiques vérifiées.
+- Préciser sa compatibilité.
+- Ajouter sa photographie.
+
+**Modifier une interaction :**
+
+- Ouvrir `script.js`.
+- Repérer la partie commentée correspondante.
+- Expliquer précisément la modification à effectuer.
+
+## 19. AUTO-VÉRIFICATION FINALE
+
+Avant de terminer, vérifier :
+
+- Tous les fichiers nécessaires existent.
+- Toutes les pages s’ouvrent.
+- La navigation fonctionne.
+- Les images référencées existent.
+- Le CSS et le JavaScript sont chargés.
+- Le menu mobile et le filtre fonctionnent.
+- Les textes sont lisibles.
+- Le site s’adapte aux téléphones.
+- Aucun framework ou backend n’est nécessaire.
+- Le formulaire indique clairement qu’il n’envoie rien.
+- Aucun prix, avis, partenaire ou détail commercial n’a été inventé.
+- Les services prévus sont distingués des fonctionnalités disponibles.
+
+Indiquer honnêtement ce qui a été testé et ce qui reste à vérifier.
+
+## 20. FORMAT DE LA RÉPONSE ATTENDUE
+
+Présenter les résultats dans cet ordre :
+
+1. Résumé du projet ELORA.
+2. Présentation rapide de la charte graphique.
+3. Arborescence des fichiers.
+4. Liste des fichiers créés.
+5. Instructions pour ouvrir le projet.
+6. Instructions pour ouvrir le terminal.
+7. Méthodes pour lancer le site.
+8. Adresse locale à ouvrir.
+9. Instructions pour arrêter le serveur.
+10. Résultat des vérifications.
+11. Informations manquantes à compléter.
+
+Les informations manquantes comprennent :
+
+- Zone géographique et zone de livraison.
+- Coordonnées de contact.
+- Liens des réseaux sociaux.
+- Références et caractéristiques des produits.
+- Prix et devise.
+- Photos des produits.
+- Frais et délais de livraison.
+- Conditions de retour et de garantie.
+- Prestataires et modalités de paiement.
+- Logo définitif, si souhaité.
+
+## 21. ACCOMPAGNEMENT DE L’ÉTUDIANT
+
+À chaque étape :
+
+- Expliquer quoi cliquer.
+- Expliquer quoi taper.
+- Décrire le résultat attendu.
+- Indiquer quoi faire en cas de problème.
+
+Ne jamais supposer que l’étudiant connaît le terminal, HTML, CSS, JavaScript, un serveur local ou `localhost`.
+
+Le résultat attendu est un **site vitrine ELORA cohérent avec le BMC, facile à comprendre et à modifier, accompagné d’un guide permettant à un débutant de l’afficher dans son navigateur**.
+# DONNÉES REMPLIES À PARTIR DU SITE OPiERRE — APPLIQUER CES DONNÉES AU PROMPT
+Marque du prototype: ELORA. Opierre sert de source catalogue uniquement. Ne pas utiliser le logo ou les contacts Opierre sur ELORA.
+Opierre: marque tunisienne fondée en 2018; bijoux en acier inoxydable et acier de qualité; slogan public « Élégance intemporelle »; téléphone 28 340 537; e-mail opierre.tunisie@gmail.com. Contact ELORA fourni: +216 55 60 97 38, Instagram @elora__accessoires1.
+Identité ELORA: couleurs #CB8161, #AB9687, #333333, #868686, #FFFFFF, #F6F6F6; titres Cormorant Garamond, texte Lato; style élégant, féminin, clair et accessible. Logo officiel ELORA non fourni: wordmark texte provisoire.
+Zone: Tunisie; ville et zones exactes non publiées. Tarifs et délais de livraison, retours, garantie et paiement ELORA non renseignés. Le prototype statique ne réalise aucun paiement, commande ou livraison. Les fonctions envisagées doivent être présentées comme non opérationnelles.
+Catégories visibles Opierre: Special Edition (11), Montre (1), Colliers silver (17), Bracelets silver (2), Bague silver (4), Boucles silver (3), Bague acier plaqué or (6), Set Silver (2), Jewelry Essentials (1). Filtres de matière: Acier, argent 925. Fourchette affichée dans le relevé: 29 à 245,65 DT. Vérifier chaque fiche avant publication.
+
+## CATALOGUE SOURCE — 47 PRODUITS, PRIX EN DT
+1. Bague Bubble — 29 — bague-bubble
+2. Bague Prestige — 32 — épuisée — bague-prestige
+3. Bague Classy — 29 — bague-classy-3
+4. Bague Dimaond Curve — 32 — bague-dimaond-curve
+5. Bague Gold Heart — 32 — bague-gold-heart
+6. Bague Solara — 32 — épuisée — bague-solara
+7. Set Oria — 99 — set-oria
+8. Set Diana — 199 — set-diana
+9. Rangement Muse — 29,90 — Beige/Rose — muse
+10. Boucle Classy — 69 — boucle-classy
+11. Boucle Oria — 79 — boucle-oria
+12. Boucle Nolia — 89 — épuisée — boucle-nolia
+13. Bague Orlina — 89 — bague-orlina
+14. Bague Florea — 89 — épuisée — bague-florea
+15. Bague Pink Blush — 99 — bague-pink-blush
+16. Bague Purple Blush — 99 — bague-purple-blush
+17. Collier Aurea (slug collier-liora-2) — 89 — collier-liora-2
+18. Collier Lotusia — 89 — épuisé — collier-lotusia
+19. Collier Liora — 89 — collier-liora
+20. Bracelet Ora — 99 — épuisé — bracelet-ora
+21. Bracelet Radiant — 109 — bracelet-radiant
+22. Set Zircon Glow — 149 — épuisé — set-zircon-glow
+23. Set Arabesque — 189 — set-arabesque
+24. Collier Floating Flower — 89 — collier-floating-flower
+25. Collier Azur — 129 — épuisé — collier-azur
+26. Collier Promise — 89 — collier-promise
+27. Collier Strass — 69 — épuisé — collier-strass
+28. Collier Square — 89 — collier-square
+29. Collier Diana — 89 — épuisé — collier-diana
+30. Collier Blush Garden — 149 — collier-blush-garden
+31. Collier Pinky — 79 — collier-pinky
+32. Collier Gold Eternal — 89 — collier-gold-eternal
+33. Collier White Eternal — 89 — collier-white-eternal
+34. Collier Purple Blush — 139 — collier-purple-blush
+35. Collier White Blush — 139 — collier-white-blush
+36. Set Precious — 149 — épuisé — set-previous
+37. Duo Precious — 67,15 — épuisé — duo-precious
+38. Royal Blush — 220,15 — épuisé — royal-blush
+39. Infinite Glow — 245,65 — remise -15% affichée — infinite-glow
+40. Precious Bloom — 135,15 — remise -15% affichée — precious-bloom
+41. Golden Weave — 118,15 — remise -15% affichée — golden-weave
+42. Pearl Glow — 109,65 — épuisé — pearl-glow
+43. Golden Petals — 169,15 — épuisé — golden-petals
+44. Glowy — 126,65 — remise -15% affichée — glowy
+45. Montre Signature — 159 — épuisée — montre-signature
+46. Collier White Tree — 79 — épuisé — collier-white-tree
+47. Collier Purple Flower — 89 — épuisé — collier-purple-flower
+
+Boutique: https://opierre.tn/boutique/?orderby=date ; fiches: https://opierre.tn/product/{slug}/. Relevé du 06/11/2026; le 07/11/2026 la page affichait déjà Bubble épuisée. Prix, stocks et promos changent: vérifier avant usage. Ne pas inventer descriptions, matériaux individuels, tailles, garanties, livraison ou avis.

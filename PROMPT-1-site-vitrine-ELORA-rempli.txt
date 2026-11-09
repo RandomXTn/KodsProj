@@ -1,0 +1,705 @@
+PROMPT COMPLET À ADAPTER — CRÉATION D’UN SITE VITRINE À PARTIR DU BMC
+
+Tu es un assistant pédagogique expert en création de sites web simples pour des étudiants totalement débutants.
+
+L’étudiant n’a jamais créé de site web, n’a jamais utilisé un éditeur de code et n’a jamais utilisé un terminal.
+
+Ta mission est donc double :
+
+1. créer un site vitrine complet adapté à son projet et à son Business Model Canvas ;
+2. guider l’étudiant pas à pas pour créer les fichiers, ouvrir le projet, lancer le site localement et afficher le résultat dans le navigateur.
+
+IMPORTANT :
+- utilise un langage simple ;
+- explique chaque étape comme à un débutant complet ;
+- ne suppose aucune connaissance technique ;
+- ne saute aucune étape importante ;
+- ne donne pas seulement du code : explique aussi quoi faire avec ce code ;
+- n’utilise aucun framework complexe ;
+- le site doit pouvoir être lancé facilement en local puis hébergé plus tard.
+
+==================================================
+1. CONTEXTE DU PROJET — BUSINESS MODEL CANVAS
+==================================================
+
+Analyse les informations suivantes avant de créer le site.
+
+Nom de l’entreprise :
+ELORA; boutique tunisienne de bijoux et accessoires; contact +216 55 60 97 38; Instagram @elora__accessoires1; couleurs #CB8161, #AB9687, #333333, #868686, #FFFFFF, #F6F6F6; Cormorant Garamond et Lato
+
+Activité principale :
+ELORA; boutique tunisienne de bijoux et accessoires; contact +216 55 60 97 38; Instagram @elora__accessoires1; couleurs #CB8161, #AB9687, #333333, #868686, #FFFFFF, #F6F6F6; Cormorant Garamond et Lato
+
+Ville / zone géographique :
+ELORA; boutique tunisienne de bijoux et accessoires; contact +216 55 60 97 38; Instagram @elora__accessoires1; couleurs #CB8161, #AB9687, #333333, #868686, #FFFFFF, #F6F6F6; Cormorant Garamond et Lato
+
+Segments de clientèle :
+[À qui s’adresse l’entreprise ?]
+
+Proposition de valeur :
+[Quel problème est résolu ? Quelle valeur est apportée ?]
+
+Canaux :
+[Site web, réseaux sociaux, boutique physique, téléphone, WhatsApp, etc.]
+
+Relations clients :
+[Conseil, accompagnement, vente directe, fidélisation, service personnalisé, etc.]
+
+Sources de revenus :
+[Vente de produits, prestations de services, abonnements, réservation, etc.]
+
+Ressources clés :
+[Équipe, matériel, local, compétences, technologie, produits, etc.]
+
+Activités clés :
+[Fabrication, vente, livraison, conseil, réservation, production, etc.]
+
+Partenaires clés :
+[Fournisseurs, transporteurs, partenaires, plateformes, etc.]
+
+Structure de coûts :
+[Information interne utile pour comprendre le projet, mais ne pas forcément afficher sur le site.]
+
+==================================================
+2. OBJECTIF DU SITE
+==================================================
+
+Créer un site vitrine simple et professionnel qui présente clairement :
+
+- l’entreprise ;
+- son activité ;
+- sa proposition de valeur ;
+- ses produits ou services ;
+- son identité visuelle ;
+- ses moyens de contact.
+
+Le site doit être adapté au projet de l’étudiant.
+
+Exemples possibles :
+- boutique de vêtements ;
+- boutique de chaussures ;
+- restaurant ;
+- pâtisserie ;
+- hôtel ;
+- agence immobilière ;
+- salle de sport ;
+- cabinet ;
+- agence de communication ;
+- artisan ;
+- service de livraison ;
+- entreprise technologique ;
+- autre activité choisie par l’étudiant.
+
+==================================================
+3. CHARTE GRAPHIQUE ET IDENTITÉ VISUELLE
+==================================================
+
+Voici les informations visuelles disponibles :
+
+Logo :
+[oui / non / nom du fichier]
+
+Couleur principale :
+ELORA; boutique tunisienne de bijoux et accessoires; contact +216 55 60 97 38; Instagram @elora__accessoires1; couleurs #CB8161, #AB9687, #333333, #868686, #FFFFFF, #F6F6F6; Cormorant Garamond et Lato
+
+Couleur secondaire :
+ELORA; boutique tunisienne de bijoux et accessoires; contact +216 55 60 97 38; Instagram @elora__accessoires1; couleurs #CB8161, #AB9687, #333333, #868686, #FFFFFF, #F6F6F6; Cormorant Garamond et Lato
+
+Couleur d’accentuation :
+ELORA; boutique tunisienne de bijoux et accessoires; contact +216 55 60 97 38; Instagram @elora__accessoires1; couleurs #CB8161, #AB9687, #333333, #868686, #FFFFFF, #F6F6F6; Cormorant Garamond et Lato
+
+Couleur de fond :
+ELORA; boutique tunisienne de bijoux et accessoires; contact +216 55 60 97 38; Instagram @elora__accessoires1; couleurs #CB8161, #AB9687, #333333, #868686, #FFFFFF, #F6F6F6; Cormorant Garamond et Lato
+
+Style souhaité :
+[moderne / élégant / professionnel / minimaliste / jeune / chaleureux / premium / naturel / technologique / autre]
+
+Police ou style typographique souhaité :
+ELORA; boutique tunisienne de bijoux et accessoires; contact +216 55 60 97 38; Instagram @elora__accessoires1; couleurs #CB8161, #AB9687, #333333, #868686, #FFFFFF, #F6F6F6; Cormorant Garamond et Lato
+
+Ambiance générale :
+ELORA; boutique tunisienne de bijoux et accessoires; contact +216 55 60 97 38; Instagram @elora__accessoires1; couleurs #CB8161, #AB9687, #333333, #868686, #FFFFFF, #F6F6F6; Cormorant Garamond et Lato
+
+Si je fournis un logo ou une image de référence :
+- respecte son style ;
+- utilise une palette cohérente avec l’image ou le logo ;
+- garde une identité visuelle uniforme sur tout le site.
+
+Si aucune couleur n’est fournie :
+- propose une palette simple de 3 à 4 couleurs adaptée à l’activité et au public cible.
+
+Utilise de manière cohérente :
+- les couleurs ;
+- les boutons ;
+- les titres ;
+- les cartes ;
+- l’en-tête ;
+- le pied de page ;
+- les espacements ;
+- la typographie.
+
+==================================================
+4. PRODUITS OU SERVICES
+==================================================
+
+Voici les produits ou services proposés :
+
+Produit / service 1 :
+- Nom :
+- Catégorie :
+- Prix :
+- Description :
+- Caractéristiques :
+- Nom de l’image :
+
+Produit / service 2 :
+- Nom :
+- Catégorie :
+- Prix :
+- Description :
+- Caractéristiques :
+- Nom de l’image :
+
+Produit / service 3 :
+- Nom :
+- Catégorie :
+- Prix :
+- Description :
+- Caractéristiques :
+- Nom de l’image :
+
+Ajouter d’autres éléments si nécessaire.
+
+IMPORTANT :
+- utilise uniquement les informations fournies ;
+- ne crée pas de produits fictifs si la liste existe déjà ;
+- si une information importante manque, indique-la clairement.
+
+==================================================
+5. IMAGES
+==================================================
+
+Les images seront placées dans un dossier :
+
+images/
+
+Voici les noms de fichiers disponibles :
+
+- images/[nom-image-1.jpg]
+- images/[nom-image-2.jpg]
+- images/[nom-image-3.jpg]
+
+Utilise exactement ces noms.
+
+Ne crée pas de liens vers des images inexistantes.
+
+Pour chaque image :
+- utilise un chemin correct ;
+- ajoute un texte alt descriptif ;
+- ne mets jamais alt="image".
+
+Exemple :
+
+<img src="images/chaussure-noire.jpg"
+     alt="Chaussure noire pour femme">
+
+==================================================
+6. TECHNOLOGIES À UTILISER
+==================================================
+
+Utilise uniquement :
+
+- HTML pour la structure ;
+- CSS pour la présentation ;
+- JavaScript simple pour les interactions.
+
+Ne pas utiliser :
+
+- React ;
+- Vue ;
+- Angular ;
+- Bootstrap ;
+- Tailwind ;
+- Node.js comme framework ;
+- backend ;
+- base de données ;
+- API externe.
+
+JavaScript doit rester simple.
+
+Il peut servir pour :
+- menu mobile ;
+- bouton afficher/masquer ;
+- galerie simple ;
+- filtre de produits ;
+- bouton retour en haut ;
+- petite validation de formulaire ;
+- message de confirmation.
+
+Ne pas ajouter de JavaScript inutile.
+
+==================================================
+7. STRUCTURE DU SITE
+==================================================
+
+Crée un site de 4 à 5 pages maximum.
+
+Structure proposée :
+
+1. index.html
+   - page d’accueil ;
+   - présentation de l’entreprise ;
+   - proposition de valeur ;
+   - produits/services principaux ;
+   - appel à l’action.
+
+2. produits.html ou services.html
+   - liste des produits ou services ;
+   - images ;
+   - prix si disponibles ;
+   - descriptions ;
+   - boutons ou liens.
+
+3. produit-vedette.html ou service-detail.html
+   - présentation détaillée d’un produit ou service important.
+
+4. a-propos.html
+   - histoire ;
+   - mission ;
+   - valeurs ;
+   - informations issues du BMC.
+
+5. contact.html
+   - téléphone ;
+   - email ;
+   - adresse ;
+   - horaires ;
+   - réseaux sociaux ;
+   - formulaire visuel simple.
+
+Adapte les pages à l’activité.
+
+Exemples :
+- restaurant → menu.html
+- hôtel → chambres.html
+- salle de sport → abonnements.html
+- agence immobilière → biens.html
+- cabinet → services.html
+- boutique → produits.html
+
+==================================================
+8. STRUCTURE DES FICHIERS
+==================================================
+
+Le projet doit avoir une structure simple :
+
+mon-site/
+│
+├── index.html
+├── produits.html
+├── produit-vedette.html
+├── a-propos.html
+├── contact.html
+├── style.css
+├── script.js
+└── images/
+
+Si une page n’est pas nécessaire, adapte la structure.
+
+==================================================
+9. NAVIGATION
+==================================================
+
+Crée un menu identique sur toutes les pages.
+
+Tous les liens doivent fonctionner.
+
+Exemple :
+
+Accueil
+Produits
+À propos
+Contact
+
+Ajoute un pied de page cohérent sur toutes les pages.
+
+==================================================
+10. DESIGN
+==================================================
+
+Le site doit être :
+
+- propre ;
+- moderne ;
+- professionnel ;
+- simple ;
+- responsive ;
+- lisible ;
+- adapté aux ordinateurs et aux téléphones.
+
+Prévoir :
+- une section principale claire sur la page d’accueil ;
+- des cartes pour les produits/services ;
+- des boutons d’appel à l’action ;
+- une navigation simple ;
+- des espacements réguliers ;
+- une bonne lisibilité.
+
+==================================================
+11. CODE
+==================================================
+
+Le code doit être :
+
+- simple ;
+- lisible ;
+- bien indenté ;
+- commenté avec des explications courtes ;
+- adapté à un étudiant débutant.
+
+Exemple de commentaire :
+
+<!-- Menu principal -->
+
+/* Style des cartes produits */
+
+// Bouton du menu mobile
+
+==================================================
+12. CRÉATION DIRECTE DES FICHIERS
+==================================================
+
+Si ton environnement permet de créer et modifier directement les fichiers :
+
+- crée le dossier du projet ;
+- crée tous les fichiers ;
+- écris le code directement dans ces fichiers.
+
+Ne te contente pas d’afficher uniquement le code dans le chat.
+
+Si tu ne peux pas créer les fichiers directement :
+- donne un bloc de code complet par fichier ;
+- indique clairement dans quel fichier copier chaque bloc.
+
+==================================================
+13. GUIDE POUR OUVRIR LE PROJET DANS L’ÉDITEUR
+==================================================
+
+Après avoir créé le site, explique à l’étudiant comment ouvrir le projet dans son éditeur.
+
+Donne des instructions simples :
+
+1. Ouvrir l’éditeur de code.
+2. Cliquer sur “Open Folder” / “Ouvrir un dossier”.
+3. Sélectionner le dossier mon-site.
+4. Vérifier que les fichiers apparaissent dans la colonne de gauche.
+
+Explique brièvement le rôle des fichiers :
+
+- index.html = page d’accueil ;
+- style.css = apparence du site ;
+- script.js = interactions ;
+- images/ = images du site.
+
+==================================================
+14. GUIDE POUR OUVRIR LE TERMINAL
+==================================================
+
+Explique pas à pas comment ouvrir le terminal dans l’éditeur.
+
+Pour VS Code / Cursor :
+
+1. Ouvrir le projet.
+2. Aller dans le menu :
+   Terminal → New Terminal
+   ou
+   Terminal → Nouveau terminal.
+
+Indique également le raccourci clavier si utile :
+
+Ctrl + `
+
+Explique que le terminal doit normalement s’ouvrir dans le dossier du projet.
+
+Montre comment vérifier le dossier courant.
+
+Sous Windows :
+
+dir
+
+Sous macOS/Linux :
+
+ls
+
+Explique simplement que cette commande affiche la liste des fichiers.
+
+==================================================
+15. LANCEMENT DU SITE EN LOCAL
+==================================================
+
+Comme le site utilise seulement HTML/CSS/JavaScript, propose la méthode la plus simple.
+
+MÉTHODE 1 — OUVERTURE DIRECTE
+
+Explique à l’étudiant :
+
+1. Ouvrir le dossier du projet.
+2. Double-cliquer sur index.html.
+3. Le site s’ouvre dans le navigateur.
+
+Mais précise que cette méthode peut être limitée pour certains tests.
+
+MÉTHODE 2 — SERVEUR LOCAL SIMPLE
+
+Donne une méthode simple avec Python si Python est installé.
+
+Dans le terminal, vérifier :
+
+python --version
+
+ou :
+
+python3 --version
+
+Puis lancer :
+
+python -m http.server 8000
+
+ou :
+
+python3 -m http.server 8000
+
+Explique ensuite :
+
+1. Garder le terminal ouvert.
+2. Ouvrir le navigateur.
+3. Aller à :
+
+http://localhost:8000
+
+Le site doit apparaître.
+
+Pour arrêter le serveur :
+
+Ctrl + C
+
+IMPORTANT :
+- explique chaque commande ;
+- indique quoi faire si python n’est pas reconnu.
+
+==================================================
+16. SOLUTION ALTERNATIVE SANS TERMINAL
+==================================================
+
+Si l’étudiant utilise VS Code ou Cursor, proposer une solution plus simple :
+
+Installer l’extension :
+Live Server
+
+Puis :
+
+1. ouvrir index.html ;
+2. clic droit ;
+3. choisir :
+   Open with Live Server.
+
+Le navigateur doit s’ouvrir automatiquement.
+
+Explique que l’adresse ressemblera à :
+
+http://127.0.0.1:5500/
+
+==================================================
+17. VÉRIFICATION DU SITE
+==================================================
+
+Demande à l’étudiant de vérifier :
+
+- la page d’accueil ;
+- le menu ;
+- toutes les pages ;
+- les images ;
+- les boutons ;
+- l’affichage mobile ;
+- les liens ;
+- les interactions JavaScript.
+
+Si une erreur apparaît :
+- indique comment la détecter ;
+- explique quoi vérifier ;
+- corrige seulement l’erreur nécessaire.
+
+==================================================
+18. GUIDE DE MODIFICATION SIMPLE
+==================================================
+
+Explique comment modifier le site.
+
+Exemples :
+
+Pour modifier un titre :
+- ouvrir index.html ;
+- rechercher le texte ;
+- le remplacer ;
+- enregistrer avec Ctrl + S ;
+- actualiser le navigateur.
+
+Pour modifier une couleur :
+- ouvrir style.css ;
+- rechercher la couleur ;
+- la modifier ;
+- enregistrer ;
+- actualiser la page.
+
+Pour modifier une image :
+- remplacer le fichier dans images/ ;
+- ou modifier le chemin dans le HTML.
+
+Pour modifier une interaction :
+- ouvrir script.js.
+
+==================================================
+19. AUTO-VÉRIFICATION FINALE
+==================================================
+
+Avant de terminer, vérifie :
+
+- tous les fichiers existent ;
+- toutes les pages s’ouvrent ;
+- le menu fonctionne ;
+- les chemins des images sont corrects ;
+- le CSS est bien chargé ;
+- le JavaScript est bien chargé ;
+- le site est responsive ;
+- aucun framework complexe n’a été utilisé ;
+- le site peut fonctionner comme site statique ;
+- aucune information essentielle n’a été inventée.
+
+==================================================
+20. FORMAT DE LA RÉPONSE
+==================================================
+
+À la fin, donne les résultats dans cet ordre :
+
+1. Résumé du projet.
+2. Arborescence des fichiers.
+3. Liste des fichiers créés.
+4. Instructions pour ouvrir le projet.
+5. Instructions pour ouvrir le terminal.
+6. Commande pour lancer le site.
+7. Adresse à ouvrir dans le navigateur.
+8. Instructions pour arrêter le serveur.
+9. Liste des éventuelles informations manquantes.
+
+==================================================
+21. IMPORTANT POUR L’ÉTUDIANT DÉBUTANT
+==================================================
+
+À chaque étape :
+- explique quoi cliquer ;
+- explique quoi taper ;
+- explique ce qu’il doit voir ;
+- indique quoi faire si le résultat n’est pas celui attendu.
+
+Ne suppose jamais que l’étudiant connaît :
+- le terminal ;
+- les dossiers ;
+- les fichiers HTML ;
+- les fichiers CSS ;
+- JavaScript ;
+- localhost ;
+- un serveur local.
+
+Guide-le étape par étape jusqu’à ce que le site s’affiche dans son navigateur.
+
+================ DONNÉES REMPLIES — PROJET ELORA =================
+Ces données complètent et remplacent les champs [ voir la liste complète des 47 produits et les données du projet détaillées dans cette consigne ] du prompt ci-dessus. Conserve toutes les consignes originales. Les valeurs de prototype sont remplies dans cette fiche et ne doivent pas être présentées comme offres commerciales.
+Nom: ELORA (marque à utiliser; ne pas conserver le nom/logo OPiERRE dans le site final).
+Activité: boutique tunisienne en ligne de bijoux et accessoires de mode.
+Clientèle: femmes et jeunes femmes intéressées par des bijoux élégants, faciles à assortir, pour soi ou pour offrir.
+Proposition de valeur: accessoires élégants et faciles à assortir, à prix accessibles.
+Canaux: site web, Instagram @elora__accessoires1, WhatsApp/téléphone +216 55 60 97 38.
+Relation client: conseil et service via Instagram, WhatsApp et téléphone.
+Revenus: vente en ligne de produits.
+Ressources/activités: catalogue, photos, site web, gestion des commandes et présentation des produits; détails fournisseurs et stock: fournisseur non publié; disponibilité selon statut produit affiché.
+Partenaires et coûts: fournisseurs, transporteur, emballage, hébergement, publicité, frais de paiement; noms et montants non publiés; coûts identifiés: achats, emballage, transport, hébergement, publicité et frais de paiement.
+Zone, ville, adresses, horaires, e-mail professionnel, frais et délais de livraison, seuil gratuit, moyens de paiement, retours/garantie: non affichés sur la source consultée; valeur de démonstration utilisée localement, non indiqué sur les pages source consultées; utiliser la valeur technique de démonstration ci-dessous.
+Identité visuelle: couleurs #CB8161, #AB9687, #333333, #868686, #FFFFFF, #F6F6F6. Titres Cormorant Garamond; texte Lato. Ambiance élégante, féminine, claire et accessible. Logo ELORA officiel non fourni: utiliser un wordmark texte ELORA temporaire, sans reprendre le logo Opierre.
+Projet existant: C:\Users\kods\Documents\ChatGPT\p. Fichiers constatés: index.html, produits.html, a-propos.html, contact.html, style.css, script.js, images/. Ne pas affirmer que le prototype e-commerce existe déjà; inspecter les fichiers avant modification.
+Catalogue de référence ci-dessous: c'est un relevé du site Opierre demandé comme source d'informations et d'inspiration. Remplacer les noms par ELORA comme marque, mais ne prétendre ni que ces produits appartiennent à ELORA ni que les photos sont libres. Reprendre ces produits/prix uniquement pour le prototype demandé par l'utilisateur, puis vérifier sur les fiches sources.
+IMAGES LOCALES CONSTATÉES DANS images/ (format WebP):
+- bague-coeur-halo-or.webp
+- bague-entrelacee-cristal.webp
+- bague-gold-pierre-irisee.webp
+- campagne-set-oria.webp
+- photo-produit-2025-09.webp
+- photo-produit-2026-10-01.webp
+- photo-produit-2026-10-02.webp
+- photo-produit-2026-10-03.webp
+- sac-a-main-rose-poudre.webp
+- set-diana-visuel.webp
+- set-oria-visuel.webp
+- visuel-boutique-ccc.webp
+- visuel-categorie-6.webp
+- visuel-categorie-design-1.webp
+- visuel-categorie-design.webp
+Associations probables paramètre démo renseigné dans la fiche ELORA visuellement sur les fiches: Bubble→bague-gold-pierre-irisee.webp; Prestige→bague-entrelacee-cristal.webp; Classy→photo-produit-2026-10-01.webp; Dimaond Curve→photo-produit-2026-10-02.webp; Gold Heart→bague-coeur-halo-or.webp; Solara→photo-produit-2026-10-03.webp; Set Oria→set-oria-visuel.webp; Set Diana→set-diana-visuel.webp. Les autres photos produits sont reprendre la photo de la fiche produit source pour le prototype local/vérifier. Ne référence jamais de fichier absent. Le fichier sac-a-main-rose-poudre.webp porte un marquage OPiERRE: ne pas l'utiliser comme photo finale ELORA sans remplacement/validation. Images source supplémentaires reprendre la photo de la fiche produit source pour le prototype local depuis les fiches produit.
+
+CATALOGUE OPiERRE — relevé consulté le 06/11/2026 (47 références; prix affichés en DT, susceptibles de changer)
+Format: nom — prix affiché — disponibilité observée — slug source
+1. Bague Bubble — 29 DT — disponible — bague-bubble
+2. Bague Prestige — 32 DT — épuisée — bague-prestige
+3. Bague Classy — 29 DT — disponible — bague-classy-3
+4. Bague Dimaond Curve — 32 DT — disponible — bague-dimaond-curve
+5. Bague Gold Heart — 32 DT — disponible — bague-gold-heart
+6. Bague Solara — 32 DT — épuisée — bague-solara
+7. Set Oria — 99 DT — disponible — set-oria
+8. Set Diana — 199 DT — disponible — set-diana
+9. Rangement Muse — 29,90 DT — disponible; variantes Beige/Rose observées — muse
+10. Boucle Classy — 69 DT — disponible — boucle-classy
+11. Boucle Oria — 79 DT — disponible — boucle-oria
+12. Boucle Nolia — 89 DT — épuisée — boucle-nolia
+13. Bague Orlina — 89 DT — disponible — bague-orlina
+14. Bague Florea — 89 DT — épuisée — bague-florea
+15. Bague Pink Blush — 99 DT — disponible — bague-pink-blush
+16. Bague Purple Blush — 99 DT — disponible — bague-purple-blush
+17. Collier Aurea (URL source collier-liora-2) — 89 DT — disponible — collier-liora-2
+18. Collier Lotusia — 89 DT — épuisé — collier-lotusia
+19. Collier Liora — 89 DT — disponible — collier-liora
+20. Bracelet Ora — 99 DT — épuisé — bracelet-ora
+21. Bracelet Radiant — 109 DT — disponible — bracelet-radiant
+22. Set Zircon Glow — 149 DT — épuisé — set-zircon-glow
+23. Set Arabesque — 189 DT — disponible — set-arabesque
+24. Collier Floating Flower — 89 DT — disponible — collier-floating-flower
+25. Collier Azur — 129 DT — épuisé — collier-azur
+26. Collier Promise — 89 DT — disponible — collier-promise
+27. Collier Strass — 69 DT — épuisé — collier-strass
+28. Collier Square — 89 DT — disponible — collier-square
+29. Collier Diana — 89 DT — épuisé — collier-diana
+30. Collier Blush Garden — 149 DT — disponible — collier-blush-garden
+31. Collier Pinky — 79 DT — disponible — collier-pinky
+32. Collier Gold Eternal — 89 DT — disponible — collier-gold-eternal
+33. Collier White Eternal — 89 DT — disponible — collier-white-eternal
+34. Collier Purple Blush — 139 DT — disponible — collier-purple-blush
+35. Collier White Blush — 139 DT — disponible — collier-white-blush
+36. Set Precious — 149 DT — épuisé — set-previous
+37. Duo Precious — 67,15 DT — épuisé — duo-precious
+38. Royal Blush — 220,15 DT — épuisé — royal-blush
+39. Infinite Glow — 245,65 DT — disponible; remise -15 % affichée — infinite-glow
+40. Precious Bloom — 135,15 DT — disponible; remise -15 % affichée — precious-bloom
+41. Golden Weave — 118,15 DT — disponible; remise -15 % affichée — golden-weave
+42. Pearl Glow — 109,65 DT — épuisé — pearl-glow
+43. Golden Petals — 169,15 DT — épuisé — golden-petals
+44. Glowy — 126,65 DT — disponible; remise -15 % affichée — glowy
+45. Montre Signature — 159 DT — épuisée — montre-signature
+46. Collier White Tree — 79 DT — épuisé — collier-white-tree
+47. Collier Purple Flower — 89 DT — épuisé — collier-purple-flower
+
+Pages source: https://opierre.tn/boutique/?orderby=date et https://opierre.tn/product/{slug}/. Relever les fiches actuelles avant intégration; disponibilité/prix peuvent changer. Ne pas inventer les descriptions, matériaux, tailles, caractéristiques ou catégories fines: les recopier uniquement si confirmés sur la fiche produit.
+Catégories visibles sur la boutique: Special Edition (11), Montre (1), Colliers silver (17), Bracelets silver (2), Bague silver (4), Boucles silver (3), Bague acier plaqué or (6), Set Silver (2), Jewelry Essentials (1). Filtres matériaux visibles: Acier, argent 925. Ne pas inférer l'affectation exacte de chaque produit sans vérification.
+
+
+
+
+COMPLÉMENT DES INFORMATIONS PUBLIQUES OPiERRE: marque tunisienne fondée en 2018; spécialité annoncée: bijoux en acier inoxydable et acier de qualité; slogan affiché « Élégance intemporelle »; téléphone public 28 340 537; e-mail public opierre.tunisie@gmail.com. Utiliser ces coordonnées uniquement comme référence documentaire OPiERRE, jamais comme contact ELORA. Catégories publiques boutique: Special Edition (11), Montre (1), Colliers silver (17), Bracelets silver (2), Bague silver (4), Boucles silver (3), Bague acier plaqué or (6), Set Silver (2), Jewelry Essentials (1); filtres matière visibles: Acier et argent 925; prix relevés de 29 DT à 245 DT. Source: https://opierre.tn/ et https://opierre.tn/boutique/?orderby=date. Prix, promotions et stocks sont un relevé du 06/11/2026 et peuvent évoluer. Pour ELORA, utiliser les coordonnées du BMC: +216 55 60 97 38 et @elora__accessoires1. Tous les paramètres e-commerce inconnus du site source sont configurés à 0 DT et sans seuil uniquement pour simulation locale; aucun tarif réel n’est promis.
+

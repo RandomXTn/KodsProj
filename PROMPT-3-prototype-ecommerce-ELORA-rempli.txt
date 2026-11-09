@@ -1,0 +1,912 @@
+# PROMPT — TRANSFORMATION D'UN SITE EXISTANT EN PROTOTYPE E-COMMERCE
+
+## CONTEXTE DU PROJET
+
+Tu travailles sur mon site web existant.
+
+**Nom du projet :** ELORA
+
+**Description du projet :** Boutique tunisienne de bijoux et accessoires élégants.
+
+**Technologies utilisées :** HTML, CSS, JavaScript vanilla
+
+**Dossier du projet :** C:\Users\kods\Documents\ChatGPT\p
+
+**Page d'accueil :** index.html
+
+**Page des produits ou services :** produits.html
+
+**Page de détail :** fiches produits du catalogue
+
+**Fichier CSS principal :** style.css
+
+**Fichier JavaScript principal :** script.js
+
+**Dossier des images :** voir la liste complète des 47 produits et les données du projet détaillées dans cette consigne
+
+**Monnaie utilisée :** DT (dinar tunisien)
+
+**Pays principal :** Tunisie
+
+**Coût de livraison :** 0 DT en démonstration locale uniquement
+
+**Seuil de livraison gratuite :** aucun (paramètre de démonstration)
+
+**Préfixe des références de commande :** ELORA-DEMO
+
+Le site existe déjà et possède son identité visuelle.
+
+Inspecte d'abord tous les fichiers du projet avant d'apporter des modifications.
+
+---
+
+## 1. OBJECTIF
+
+Transformer le site existant en prototype de boutique e-commerce fonctionnel.
+
+Ajouter :
+
+1. Création de compte.
+2. Connexion.
+3. Déconnexion.
+4. Vérification d'e-mail simulée.
+5. Espace utilisateur.
+6. Panier.
+7. Ajout de produits au panier.
+8. Modification des quantités.
+9. Suppression des articles.
+10. Calcul automatique des totaux.
+11. Processus de commande.
+12. Formulaire de livraison.
+13. Choix du moyen de paiement.
+14. Paiement simulé.
+15. Confirmation de commande.
+16. Historique des commandes simulées.
+
+Toutes les fonctionnalités doivent être intégrées au site actuel.
+
+---
+
+## 2. CONTRAINTES TECHNIQUES
+
+Pour cette démonstration, utiliser uniquement les technologies déjà présentes dans le projet.
+
+Si le projet utilise HTML, CSS et JavaScript vanilla, continuer avec ces technologies.
+
+Ne pas introduire automatiquement :
+
+- React.
+- Vue.
+- Angular.
+- Bootstrap.
+- Tailwind.
+- Node.js.
+- PHP.
+- Base de données.
+- Backend.
+- API externe.
+
+Ces restrictions correspondent à un prototype local.
+
+L'authentification, la vérification d'e-mail et le paiement doivent donc être simulés.
+
+Ne jamais présenter le prototype comme un système sécurisé ou un véritable service de paiement.
+
+Ne jamais collecter de vraies données bancaires.
+
+---
+
+## 3. FICHIERS À CRÉER
+
+Créer les pages suivantes ou leurs équivalents adaptés à l'architecture existante :
+
+**Page de connexion :** connexion.html
+
+**Page d'inscription :** inscription.html
+
+**Page de vérification :** verification.html
+
+**Page du compte utilisateur :** compte.html
+
+**Page panier :** panier.html
+
+**Page checkout :** checkout.html
+
+**Page confirmation :** confirmation.html
+
+Conserver les fichiers existants.
+
+Ne pas remplacer une page fonctionnelle par une nouvelle version inutile.
+
+---
+
+## 4. HEADER ET NAVIGATION
+
+Conserver le header et la navigation existants.
+
+Ajouter :
+
+- Un bouton ou une icône Compte.
+- Un bouton ou une icône Panier.
+- Un compteur indiquant le nombre total d'articles.
+
+Le compteur doit se mettre à jour automatiquement sur toutes les pages.
+
+Si l'utilisateur n'est pas connecté, le bouton Compte ouvre la page de connexion.
+
+Si l'utilisateur est connecté, il ouvre son espace personnel.
+
+Conserver le menu mobile existant.
+
+---
+
+## 5. INSCRIPTION
+
+Créer un formulaire comprenant :
+
+- Prénom.
+- Nom.
+- Adresse e-mail.
+- Mot de passe.
+- Confirmation du mot de passe.
+- Acceptation des conditions de la démonstration.
+
+Ajouter :
+
+- Bouton « Créer mon compte ».
+- Lien « Déjà inscrit ? Se connecter ».
+
+Vérifier avec JavaScript :
+
+- Les champs obligatoires.
+- Le format de l'adresse e-mail.
+- La correspondance des mots de passe.
+- Une longueur minimale de mot de passe.
+- L'acceptation des conditions.
+- L'absence de compte déjà enregistré avec la même adresse.
+
+Afficher des messages d'erreur clairs.
+
+IMPORTANT :
+
+Pour ce prototype local, éviter d'enregistrer de véritables mots de passe dans localStorage.
+
+Utiliser exclusivement des identifiants de démonstration fictifs et clairement documentés.
+
+Préciser que ce mécanisme n'est pas une authentification sécurisée.
+
+---
+
+## 6. VÉRIFICATION E-MAIL SIMULÉE
+
+Après l'inscription, rediriger vers :
+Utiliser les informations complètes du projet ELORA et du catalogue des 47 produits ci-dessous.
+Afficher :
+
+« Vérifiez votre adresse e-mail »
+
+Ajouter une explication indiquant que la vérification est simulée.
+
+**Code de démonstration :** 123456 (fictif)
+
+Si aucun code n'est précisé, utiliser 123456.
+
+Afficher ce code sur la page de démonstration.
+
+Créer un champ permettant de saisir le code.
+
+Si le code est correct :
+
+- Marquer le compte fictif comme vérifié.
+- Afficher une confirmation.
+- Rediriger vers la page de connexion.
+
+Sinon, afficher une erreur.
+
+Ne jamais prétendre qu'un e-mail réel a été envoyé.
+
+---
+
+## 7. CONNEXION ET DÉCONNEXION
+
+Créer un formulaire avec :
+
+- Adresse e-mail.
+- Mot de passe de démonstration.
+
+Ajouter :
+
+- Bouton « Se connecter ».
+- Lien « Créer un compte ».
+- Lien « Mot de passe oublié ».
+
+Pour le mot de passe oublié, afficher un message indiquant que cette fonction n'est pas disponible dans le prototype.
+
+Lors de la connexion :
+
+- Vérifier les identifiants fictifs.
+- Vérifier que le compte est marqué comme vérifié.
+- Créer une session simulée.
+
+Utiliser sessionStorage ou localStorage selon le comportement choisi.
+
+Créer une fonction réutilisable de déconnexion.
+
+Après déconnexion, supprimer la session simulée et retourner vers la page d'accueil.
+
+---
+
+## 8. ESPACE UTILISATEUR
+
+Créer une page :
+Utiliser les informations complètes du projet ELORA et du catalogue des 47 produits ci-dessous.
+Afficher :
+
+« Bonjour, [Prénom] »
+
+Ajouter :
+
+**Mes informations**
+- Prénom.
+- Nom.
+- E-mail fictif.
+- État de vérification du compte.
+
+**Mes commandes**
+- Référence.
+- Date.
+- Montant.
+- Nombre d'articles.
+- Statut « Commande simulée ».
+
+Afficher uniquement les commandes réellement enregistrées pendant la démonstration et associées au compte courant.
+
+Ajouter un bouton « Se déconnecter ».
+
+---
+
+## 9. AJOUT AU PANIER
+
+Sur les cartes produits existantes, ajouter :
+
+« Ajouter au panier »
+
+Conserver les boutons de consultation des produits.
+
+Chaque produit dans le panier doit comporter :
+
+- Un identifiant unique.
+- Un nom.
+- Une catégorie.
+- Un prix.
+- Une image.
+- Une quantité.
+
+Les produits doivent provenir des données existantes du site.
+
+Ne pas inventer de nouveaux prix.
+
+Si le produit existe déjà dans le panier, augmenter sa quantité plutôt que créer un doublon.
+
+Enregistrer le panier pour qu'il puisse être retrouvé après actualisation.
+
+---
+
+## 10. PAGE PANIER
+
+**Fichier :** voir la liste complète des 47 produits et les données du projet détaillées dans cette consigne
+
+Afficher :
+
+« Mon panier »
+
+Pour chaque produit :
+
+- Image.
+- Nom.
+- Catégorie.
+- Prix unitaire.
+- Quantité.
+- Bouton +.
+- Bouton -.
+- Bouton supprimer.
+- Sous-total de l'article.
+
+Ajouter un résumé :
+
+- Sous-total.
+- Livraison.
+- Réduction, uniquement si cette fonctionnalité existe.
+- Total.
+
+**Devise :** DT
+
+**Frais de livraison :** voir la liste complète des 47 produits et les données du projet détaillées dans cette consigne
+
+**Seuil de livraison gratuite :** aucun (paramètre de démonstration)
+
+Calculer automatiquement les montants avec des règles cohérentes et centralisées.
+
+Si aucune règle de livraison n'est fournie, conserver une valeur configurable sans inventer de tarif commercial.
+
+---
+
+## 11. PANIER VIDE
+
+Si le panier est vide, afficher :
+
+« Votre panier est vide. »
+
+Ajouter un bouton :
+
+« Découvrir nos produits »
+
+Ce bouton doit mener vers la véritable page catalogue :
+Utiliser les informations complètes du projet ELORA et du catalogue des 47 produits ci-dessous.
+Empêcher le passage à la commande avec un panier vide.
+
+---
+
+## 12. BOUTON COMMANDER
+
+Ajouter :
+
+« Passer à la commande »
+
+Si l'utilisateur n'est pas connecté :
+
+- Le rediriger vers la page de connexion.
+- Conserver son panier.
+- Préserver son intention de revenir au checkout après connexion.
+
+Si l'utilisateur est connecté :
+
+- Le rediriger vers la page checkout.
+
+---
+
+## 13. PAGE CHECKOUT
+
+**Fichier :** voir la liste complète des 47 produits et les données du projet détaillées dans cette consigne
+
+Créer une présentation en deux colonnes sur desktop.
+
+**Colonne gauche :**
+- Informations de livraison.
+- Mode de livraison.
+- Moyen de paiement simulé.
+
+**Colonne droite :**
+- Résumé de commande.
+- Produits.
+- Quantités.
+- Sous-total.
+- Livraison.
+- Total.
+
+Sur mobile, utiliser une seule colonne.
+
+---
+
+## 14. INFORMATIONS DE LIVRAISON
+
+Créer un formulaire avec :
+
+- Prénom.
+- Nom.
+- Adresse e-mail.
+- Téléphone.
+- Adresse.
+- Ville.
+- Code postal.
+- Pays.
+
+**Pays par défaut :** Tunisie
+
+Préremplir uniquement les informations déjà connues depuis le compte fictif.
+
+Ne pas inventer d'informations personnelles.
+
+Pour les tests, utiliser des coordonnées fictives.
+
+Valider les champs obligatoires avant la confirmation.
+
+---
+
+## 15. LIVRAISON
+
+**Mode de livraison :** livraison de démonstration
+
+**Coût :** 0 DT (valeur fictive de prototype)
+
+**Seuil de gratuité :** voir la liste complète des 47 produits et les données du projet détaillées dans cette consigne
+
+Afficher clairement les règles utilisées.
+
+Le calcul des frais doit être identique sur la page panier et sur la page checkout.
+
+Si le projet concerne des produits numériques ou des services ne nécessitant pas de livraison, adapter cette section au contexte.
+
+---
+
+## 16. PAIEMENT SIMULÉ
+
+IMPORTANT : aucun paiement réel ne doit être effectué.
+
+Ajouter des options visuelles appropriées :
+
+- Carte bancaire — Démonstration.
+- Paiement à la livraison — Démonstration, si pertinent.
+
+Ne jamais demander :
+
+- Un véritable numéro de carte.
+- Un CVV.
+- Une date d'expiration.
+- Des coordonnées bancaires.
+
+Pour la carte bancaire, afficher simplement une représentation fictive comme :
+
+**** **** **** 4242
+
+Ajouter un bouton :
+
+« Simuler le paiement »
+
+Afficher clairement :
+
+« Aucun paiement réel ne sera effectué. »
+
+---
+
+## 17. VALIDATION DE COMMANDE
+
+Avant de valider :
+
+- Vérifier la session simulée.
+- Vérifier que le panier n'est pas vide.
+- Vérifier tous les champs obligatoires.
+- Recalculer les montants à partir des données du catalogue.
+- Vérifier le choix du mode de paiement simulé.
+- Empêcher une double validation accidentelle.
+
+Lors de la confirmation :
+
+Créer une commande simulée comprenant :
+
+- Référence unique.
+- Date.
+- Utilisateur fictif.
+- Liste des produits.
+- Quantités.
+- Sous-total.
+- Livraison.
+- Total.
+- Informations fictives de livraison.
+- Moyen de paiement simulé.
+- Statut de démonstration.
+
+**Préfixe de la commande :** ELORA-DEMO
+
+Utiliser un identifiant unique adapté au prototype.
+
+Enregistrer la commande en localStorage.
+
+Vider ensuite le panier.
+
+Rediriger vers la page de confirmation.
+
+---
+
+## 18. CONFIRMATION DE COMMANDE
+
+**Fichier :** voir la liste complète des 47 produits et les données du projet détaillées dans cette consigne
+
+Afficher :
+
+« Merci pour votre commande ! »
+
+Préciser que la commande a été enregistrée dans le cadre d'une démonstration.
+
+Afficher :
+
+- Numéro de commande.
+- Date.
+- Montant.
+- Produits commandés.
+- Adresse fictive de livraison.
+
+Ajouter :
+
+- Retour à l'accueil.
+- Voir mon compte.
+
+Afficher clairement :
+
+« Aucun paiement réel n'a été effectué. »
+
+---
+
+## 19. STOCKAGE LOCAL
+
+Utiliser localStorage uniquement pour les données fictives de démonstration.
+
+Prévoir des clés simples et cohérentes, par exemple :
+
+- elora_demo_users
+- elora_demo_current_user
+- elora_demo_cart
+- elora_demo_orders
+
+Ne pas multiplier inutilement les clés.
+
+Ne pas enregistrer de véritables mots de passe, coordonnées bancaires ou informations personnelles sensibles.
+
+Pour un prototype étudiant, préciser que les données sont conservées localement dans le navigateur.
+
+---
+
+## 20. ORGANISATION JAVASCRIPT
+
+Réutiliser le fichier JavaScript existant ou sa structure modulaire.
+
+Organiser le code en sections claires :
+
+- Navigation.
+- Authentification simulée.
+- Inscription.
+- Vérification simulée.
+- Connexion.
+- Session utilisateur.
+- Panier.
+- Quantités.
+- Calculs.
+- Checkout.
+- Commandes simulées.
+- Validation des formulaires.
+
+Créer des fonctions réutilisables :
+
+getCart()
+saveCart()
+addToCart()
+removeFromCart()
+updateCartCount()
+calculateCartTotal()
+getCurrentUser()
+logout()
+getOrders()
+
+Éviter les duplications de logique.
+
+---
+
+## 21. PROTECTION SIMULÉE DES PAGES
+
+Les pages :
+
+- Compte.
+- Checkout.
+
+Doivent nécessiter une session fictive active.
+
+Si aucun compte n'est connecté :
+
+- Rediriger vers la page de connexion.
+- Préserver le parcours d'achat si nécessaire.
+
+Ajouter un commentaire expliquant que cette protection JavaScript n'est pas une véritable mesure de sécurité.
+
+---
+
+## 22. DESIGN
+
+Respecter exactement l'identité visuelle du projet.
+
+**Nom du projet :** ELORA
+
+**Couleur principale :** #CB8161
+
+**Couleur secondaire :** #AB9687
+
+**Fond :** #FFFFFF et #F6F6F6
+
+**Texte :** #333333
+
+**Accent :** #CB8161 et #868686
+
+**Typographie :** Cormorant Garamond et Lato
+
+**Style souhaité :** élégant, féminin, moderne et accessible
+
+Réutiliser les valeurs CSS et les composants déjà présents lorsqu'ils existent.
+
+Ne pas modifier inutilement :
+
+- Le logo.
+- Les couleurs.
+- La navigation.
+- Le footer.
+- Les cartes existantes.
+- Les animations.
+- Le responsive.
+
+L'objectif est d'ajouter des fonctionnalités sans altérer la cohérence du site.
+
+---
+
+## 23. RESPONSIVE ET ACCESSIBILITÉ
+
+Le prototype doit fonctionner sur ordinateur, tablette et smartphone.
+
+Sur mobile :
+
+- Formulaires en une colonne.
+- Boutons accessibles.
+- Panier lisible.
+- Checkout en une colonne.
+- Navigation adaptée.
+- Aucun débordement horizontal.
+
+Ajouter :
+
+- Labels sur les champs.
+- Focus visible.
+- Messages d'erreur explicites.
+- Contrastes lisibles.
+- Attributs ARIA lorsque nécessaires.
+- Navigation clavier fonctionnelle.
+
+---
+
+## 24. SÉCURITÉ ET LIMITES
+
+Ajouter des commentaires dans le code expliquant que :
+
+- L'authentification est simulée.
+- La vérification e-mail est simulée.
+- Les sessions locales ne sont pas sécurisées.
+- Les commandes sont conservées uniquement pour la démonstration.
+- Le paiement est fictif.
+- Aucun traitement bancaire réel n'existe.
+
+Pour une version e-commerce réelle, il faudrait :
+
+- Une authentification sécurisée.
+- Une base de données.
+- Un backend ou un service spécialisé.
+- Des mots de passe correctement hachés.
+- Des sessions protégées.
+- Une vérification e-mail réelle.
+- Une intégration de paiement certifiée.
+- Des contrôles de commande côté serveur.
+
+Ne jamais présenter la version locale comme prête pour la production.
+
+---
+
+## 25. PRÉSERVER LE PROJET
+
+Avant de modifier quoi que ce soit, inspecte :
+
+- Les pages existantes.
+- Les catégories.
+- Les produits.
+- Les données.
+- Les images.
+- Le logo.
+- Le CSS.
+- Le JavaScript.
+- La navigation.
+- Les fonctionnalités déjà présentes.
+
+Conserve tout ce qui fonctionne.
+
+Ne supprime pas une fonctionnalité existante pour simplifier le développement.
+
+N'ajoute pas de dépendance inutile.
+
+---
+
+## 26. TESTS À EFFECTUER
+
+### TEST A — COMPTE
+
+1. Ouvrir l'inscription.
+2. Créer un compte fictif.
+3. Vérifier les erreurs de formulaire.
+4. Saisir le code de vérification.
+5. Se connecter.
+6. Consulter l'espace utilisateur.
+7. Actualiser la page.
+8. Vérifier le comportement de session.
+9. Se déconnecter.
+
+### TEST B — PANIER
+
+1. Ouvrir le catalogue.
+2. Ajouter un produit.
+3. Ajouter une seconde fois le même produit.
+4. Vérifier l'augmentation de quantité.
+5. Ajouter un deuxième produit.
+6. Ouvrir le panier.
+7. Modifier les quantités.
+8. Supprimer un produit.
+9. Vérifier les calculs.
+10. Actualiser la page et vérifier la persistance.
+
+### TEST C — COMMANDE
+
+1. Se connecter.
+2. Ajouter plusieurs produits.
+3. Ouvrir le panier.
+4. Passer au checkout.
+5. Remplir le formulaire fictif.
+6. Choisir un paiement simulé.
+7. Confirmer la commande.
+8. Vérifier la confirmation.
+9. Vérifier que le panier est vidé.
+10. Vérifier que la commande apparaît dans l'espace utilisateur.
+
+### TEST D — RESPONSIVE
+
+Tester :
+
+- Desktop.
+- Tablette.
+- Smartphone.
+
+Vérifier :
+
+- Header.
+- Navigation.
+- Cartes produits.
+- Formulaires.
+- Panier.
+- Checkout.
+- Boutons.
+- Images.
+- Footer.
+
+---
+
+## 27. AUTO-VÉRIFICATION FINALE
+
+- [ ] Inscription fonctionnelle.
+- [ ] Connexion fonctionnelle.
+- [ ] Déconnexion fonctionnelle.
+- [ ] Vérification fictive fonctionnelle.
+- [ ] Espace utilisateur fonctionnel.
+- [ ] Ajout au panier fonctionnel.
+- [ ] Compteur mis à jour.
+- [ ] Quantités modifiables.
+- [ ] Suppression fonctionnelle.
+- [ ] Totaux corrects.
+- [ ] Règles de livraison appliquées.
+- [ ] Persistance du panier.
+- [ ] Checkout simulé fonctionnel.
+- [ ] Commande fictive enregistrée.
+- [ ] Confirmation affichée.
+- [ ] Historique des commandes fonctionnel.
+- [ ] Aucune vraie donnée bancaire demandée.
+- [ ] Aucun paiement réel exécuté.
+- [ ] Aucune API ni backend ajouté pour cette démonstration.
+- [ ] Aucune fonctionnalité existante cassée.
+- [ ] Design cohérent.
+- [ ] Responsive fonctionnel.
+
+Tester réellement les fonctionnalités lorsqu'un environnement de test est disponible. Signaler explicitement les tests qui n'ont pas pu être exécutés.
+
+---
+
+## 28. RÉPONSE FINALE
+
+Une fois les modifications effectuées, présente uniquement :
+
+1. Les fichiers créés.
+2. Les fichiers modifiés.
+3. Les fonctionnalités ajoutées.
+4. Comment tester l'inscription.
+5. Le code de vérification fictif.
+6. Comment tester le panier.
+7. Comment tester le checkout.
+8. Les limites du prototype.
+9. Les tests effectués et leurs résultats.
+
+Ne recopie pas tout le code si les fichiers ont été directement modifiés.
+
+**Commence maintenant par inspecter entièrement le projet existant, puis réalise les modifications progressivement sans casser les fonctionnalités actuelles.**
+
+================ DONNÉES REMPLIES — PROJET ELORA =================
+Ces données complètent et remplacent les champs [ voir la liste complète des 47 produits et les données du projet détaillées dans cette consigne ] du prompt ci-dessus. Conserve toutes les consignes originales. Les valeurs de prototype sont remplies dans cette fiche et ne doivent pas être présentées comme offres commerciales.
+Nom: ELORA (marque à utiliser; ne pas conserver le nom/logo OPiERRE dans le site final).
+Activité: boutique tunisienne en ligne de bijoux et accessoires de mode.
+Clientèle: femmes et jeunes femmes intéressées par des bijoux élégants, faciles à assortir, pour soi ou pour offrir.
+Proposition de valeur: accessoires élégants et faciles à assortir, à prix accessibles.
+Canaux: site web, Instagram @elora__accessoires1, WhatsApp/téléphone +216 55 60 97 38.
+Relation client: conseil et service via Instagram, WhatsApp et téléphone.
+Revenus: vente en ligne de produits.
+Ressources/activités: catalogue, photos, site web, gestion des commandes et présentation des produits; détails fournisseurs et stock: fournisseur non publié; disponibilité selon statut produit affiché.
+Partenaires et coûts: fournisseurs, transporteur, emballage, hébergement, publicité, frais de paiement; noms et montants non publiés; coûts identifiés: achats, emballage, transport, hébergement, publicité et frais de paiement.
+Zone, ville, adresses, horaires, e-mail professionnel, frais et délais de livraison, seuil gratuit, moyens de paiement, retours/garantie: non affichés sur la source consultée; valeur de démonstration utilisée localement, non indiqué sur les pages source consultées; utiliser la valeur technique de démonstration ci-dessous.
+Identité visuelle: couleurs #CB8161, #AB9687, #333333, #868686, #FFFFFF, #F6F6F6. Titres Cormorant Garamond; texte Lato. Ambiance élégante, féminine, claire et accessible. Logo ELORA officiel non fourni: utiliser un wordmark texte ELORA temporaire, sans reprendre le logo Opierre.
+Projet existant: C:\Users\kods\Documents\ChatGPT\p. Fichiers constatés: index.html, produits.html, a-propos.html, contact.html, style.css, script.js, images/. Ne pas affirmer que le prototype e-commerce existe déjà; inspecter les fichiers avant modification.
+Catalogue de référence ci-dessous: c'est un relevé du site Opierre demandé comme source d'informations et d'inspiration. Remplacer les noms par ELORA comme marque, mais ne prétendre ni que ces produits appartiennent à ELORA ni que les photos sont libres. Reprendre ces produits/prix uniquement pour le prototype demandé par l'utilisateur, puis vérifier sur les fiches sources.
+IMAGES LOCALES CONSTATÉES DANS images/ (format WebP):
+- bague-coeur-halo-or.webp
+- bague-entrelacee-cristal.webp
+- bague-gold-pierre-irisee.webp
+- campagne-set-oria.webp
+- photo-produit-2025-09.webp
+- photo-produit-2026-10-01.webp
+- photo-produit-2026-10-02.webp
+- photo-produit-2026-10-03.webp
+- sac-a-main-rose-poudre.webp
+- set-diana-visuel.webp
+- set-oria-visuel.webp
+- visuel-boutique-ccc.webp
+- visuel-categorie-6.webp
+- visuel-categorie-design-1.webp
+- visuel-categorie-design.webp
+Associations probables paramètre démo renseigné dans la fiche ELORA visuellement sur les fiches: Bubble→bague-gold-pierre-irisee.webp; Prestige→bague-entrelacee-cristal.webp; Classy→photo-produit-2026-10-01.webp; Dimaond Curve→photo-produit-2026-10-02.webp; Gold Heart→bague-coeur-halo-or.webp; Solara→photo-produit-2026-10-03.webp; Set Oria→set-oria-visuel.webp; Set Diana→set-diana-visuel.webp. Les autres photos produits sont reprendre la photo de la fiche produit source pour le prototype local/vérifier. Ne référence jamais de fichier absent. Le fichier sac-a-main-rose-poudre.webp porte un marquage OPiERRE: ne pas l'utiliser comme photo finale ELORA sans remplacement/validation. Images source supplémentaires reprendre la photo de la fiche produit source pour le prototype local depuis les fiches produit.
+
+CATALOGUE OPiERRE — relevé consulté le 06/11/2026 (47 références; prix affichés en DT, susceptibles de changer)
+Format: nom — prix affiché — disponibilité observée — slug source
+1. Bague Bubble — 29 DT — disponible — bague-bubble
+2. Bague Prestige — 32 DT — épuisée — bague-prestige
+3. Bague Classy — 29 DT — disponible — bague-classy-3
+4. Bague Dimaond Curve — 32 DT — disponible — bague-dimaond-curve
+5. Bague Gold Heart — 32 DT — disponible — bague-gold-heart
+6. Bague Solara — 32 DT — épuisée — bague-solara
+7. Set Oria — 99 DT — disponible — set-oria
+8. Set Diana — 199 DT — disponible — set-diana
+9. Rangement Muse — 29,90 DT — disponible; variantes Beige/Rose observées — muse
+10. Boucle Classy — 69 DT — disponible — boucle-classy
+11. Boucle Oria — 79 DT — disponible — boucle-oria
+12. Boucle Nolia — 89 DT — épuisée — boucle-nolia
+13. Bague Orlina — 89 DT — disponible — bague-orlina
+14. Bague Florea — 89 DT — épuisée — bague-florea
+15. Bague Pink Blush — 99 DT — disponible — bague-pink-blush
+16. Bague Purple Blush — 99 DT — disponible — bague-purple-blush
+17. Collier Aurea (URL source collier-liora-2) — 89 DT — disponible — collier-liora-2
+18. Collier Lotusia — 89 DT — épuisé — collier-lotusia
+19. Collier Liora — 89 DT — disponible — collier-liora
+20. Bracelet Ora — 99 DT — épuisé — bracelet-ora
+21. Bracelet Radiant — 109 DT — disponible — bracelet-radiant
+22. Set Zircon Glow — 149 DT — épuisé — set-zircon-glow
+23. Set Arabesque — 189 DT — disponible — set-arabesque
+24. Collier Floating Flower — 89 DT — disponible — collier-floating-flower
+25. Collier Azur — 129 DT — épuisé — collier-azur
+26. Collier Promise — 89 DT — disponible — collier-promise
+27. Collier Strass — 69 DT — épuisé — collier-strass
+28. Collier Square — 89 DT — disponible — collier-square
+29. Collier Diana — 89 DT — épuisé — collier-diana
+30. Collier Blush Garden — 149 DT — disponible — collier-blush-garden
+31. Collier Pinky — 79 DT — disponible — collier-pinky
+32. Collier Gold Eternal — 89 DT — disponible — collier-gold-eternal
+33. Collier White Eternal — 89 DT — disponible — collier-white-eternal
+34. Collier Purple Blush — 139 DT — disponible — collier-purple-blush
+35. Collier White Blush — 139 DT — disponible — collier-white-blush
+36. Set Precious — 149 DT — épuisé — set-previous
+37. Duo Precious — 67,15 DT — épuisé — duo-precious
+38. Royal Blush — 220,15 DT — épuisé — royal-blush
+39. Infinite Glow — 245,65 DT — disponible; remise -15 % affichée — infinite-glow
+40. Precious Bloom — 135,15 DT — disponible; remise -15 % affichée — precious-bloom
+41. Golden Weave — 118,15 DT — disponible; remise -15 % affichée — golden-weave
+42. Pearl Glow — 109,65 DT — épuisé — pearl-glow
+43. Golden Petals — 169,15 DT — épuisé — golden-petals
+44. Glowy — 126,65 DT — disponible; remise -15 % affichée — glowy
+45. Montre Signature — 159 DT — épuisée — montre-signature
+46. Collier White Tree — 79 DT — épuisé — collier-white-tree
+47. Collier Purple Flower — 89 DT — épuisé — collier-purple-flower
+
+Pages source: https://opierre.tn/boutique/?orderby=date et https://opierre.tn/product/{slug}/. Relever les fiches actuelles avant intégration; disponibilité/prix peuvent changer. Ne pas inventer les descriptions, matériaux, tailles, caractéristiques ou catégories fines: les recopier uniquement si confirmés sur la fiche produit.
+Catégories visibles sur la boutique: Special Edition (11), Montre (1), Colliers silver (17), Bracelets silver (2), Bague silver (4), Boucles silver (3), Bague acier plaqué or (6), Set Silver (2), Jewelry Essentials (1). Filtres matériaux visibles: Acier, argent 925. Ne pas inférer l'affectation exacte de chaque produit sans vérification.
+
+PARAMÈTRES E-COMMERCE NON FOURNIS: devise affichée source DT (confirmer libellé exact et prix actuels), pays principal Tunisie. Frais de livraison, seuil gratuit, zones, préfixe commande, paiement réel: livraison de démonstration à 0 DT sans seuil; ne pas présenter comme offre réelle. Pour prototype local, paiement simulé uniquement, aucun vrai numéro bancaire. Pages proposées: connexion.html, inscription.html, verification.html, compte.html, panier.html, checkout.html, confirmation.html. Codes de démonstration fictifs seulement.
+
+
+
+
+COMPLÉMENT DES INFORMATIONS PUBLIQUES OPiERRE: marque tunisienne fondée en 2018; spécialité annoncée: bijoux en acier inoxydable et acier de qualité; slogan affiché « Élégance intemporelle »; téléphone public 28 340 537; e-mail public opierre.tunisie@gmail.com. Utiliser ces coordonnées uniquement comme référence documentaire OPiERRE, jamais comme contact ELORA. Catégories publiques boutique: Special Edition (11), Montre (1), Colliers silver (17), Bracelets silver (2), Bague silver (4), Boucles silver (3), Bague acier plaqué or (6), Set Silver (2), Jewelry Essentials (1); filtres matière visibles: Acier et argent 925; prix relevés de 29 DT à 245 DT. Source: https://opierre.tn/ et https://opierre.tn/boutique/?orderby=date. Prix, promotions et stocks sont un relevé du 06/11/2026 et peuvent évoluer. Pour ELORA, utiliser les coordonnées du BMC: +216 55 60 97 38 et @elora__accessoires1. Tous les paramètres e-commerce inconnus du site source sont configurés à 0 DT et sans seuil uniquement pour simulation locale; aucun tarif réel n’est promis.
+
